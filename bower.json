@@ -1,0 +1,11 @@
+{
+  "name": "bootstrap3-rtl",
+  "version": "3.0.0",
+  "main": ["./dist/js/bootstrap-rtl.min.js", "./dist/js/bootstrap-rtl.js", "./dist/css/bootstrap-rtl.min.css", "./dist/css/bootstrap-rtl.css"],
+  "ignore": [
+      "**/.*"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.9.0"
+  }
+}
