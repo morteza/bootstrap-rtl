@@ -3,6 +3,7 @@ Bootstrap 3 RTL
 
 Right-to-Left version of Bootstrap 3 for farsi and other RTL languages.
 
+It is not ready yet. Please use at your own discretion.
 
 Screenshots
 ================
