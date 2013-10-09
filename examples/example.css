@@ -1,0 +1,14 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.example-dropdown .dropdown-menu {
+  display: block;
+  position: static;
+  margin-bottom: 20px;
+}
+
+.example-container > p > .btn {
+  margin: 5px 0;
+}
