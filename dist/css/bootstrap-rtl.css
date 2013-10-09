@@ -3765,7 +3765,7 @@ button.close {
 }
 
 .alert {
-  padding: 10px 35px 10px 15px;
+  padding: 10px 15px 10px 35px;
   margin-bottom: 20px;
   color: #c09853;
   background-color: #fcf8e3;
@@ -3789,8 +3789,8 @@ button.close {
 
 .alert .close {
   position: relative;
-  top: 0;
-  left: -6px;
+  top: -2px;
+  right: 21px;
   color: inherit;
 }
 
