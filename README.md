@@ -2,11 +2,11 @@
 
 > Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development.
 
-Bootstrap RTL provides simple yet complete right-to-left capability for Bootstrap 3. Simply add `bootstrap-rtl.min.css` to your pages.
+Bootstrap RTL provides simple yet complete right-to-left capability for Bootstrap 3. Simply add it to your pages.
 
 ## Quick start
 
-To get started, download latest distribution from [releases page](https://github.com/morteza/bootstrap-rtl/releases). It's just like bootstrap, that's it.
+To get started, **[download latest version](https://github.com/morteza/bootstrap-rtl/releases)**. It's just like bootstrap, that's it.
 
 In addition to bootstrap distribution, LESS codes for RTL theme and compiled CSS (`bootstrap-rtl.css`) are provided, as well as minified CSS (`bootstrap-rtl.min.css`). Check `dist/` directory for all the codes you need.
 
