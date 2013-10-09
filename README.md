@@ -4,10 +4,9 @@
 
 Bootstrap RTL provides simple yet complete right-to-left capability for Bootstrap 3. Simply add `bootstrap-rtl.min.css` to your pages.
 
-To get started, check out `examples/` directory.
-
-
 ## Quick start
+
+To get started, download latest distribution from [releases page](https://github.com/morteza/bootstrap-rtl/releases). It's just like bootstrap, that's it.
 
 In addition to bootstrap distribution, LESS codes for RTL theme and compiled CSS (`bootstrap-rtl.css`) are provided, as well as minified CSS (`bootstrap-rtl.min.css`). Check `dist/` directory for all the codes you need.
 
