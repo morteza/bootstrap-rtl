@@ -3789,8 +3789,8 @@ button.close {
 
 .alert .close {
   position: relative;
-  top: -2px;
-  left: -21px;
+  top: 0;
+  left: -6px;
   color: inherit;
 }
 
