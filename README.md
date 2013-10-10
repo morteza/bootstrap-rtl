@@ -2,7 +2,7 @@
 
 > Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development.
 
-Bootstrap RTL provides simple yet complete right-to-left capability for Bootstrap 3. Simply add it to your pages.
+Bootstrap RTL provides simple yet robust right-to-left capability for Bootstrap 3. Simply add its CSS to the pages designed by Bootstrap 3.
 
 ## Quick start
 
@@ -13,18 +13,16 @@ In addition to bootstrap distribution, LESS codes for RTL theme and compiled CSS
 #### Fonts
 *Glyphicons* and *Iranian Sans* are included for icons and farsi scripts, respectively.
 
-
-## Bugs and feature requests
-
-To report a bug or request a feature [please open a new issue](https://github.com/morteza/bootstrap-rtl/issues).
-
-## Compiling CSS and JavaScript
+## Building CSS and JavaScript
 
 Bootstrap RTL uses [Grunt](http://gruntjs.com/) for working with the framework. Follow these simple steps to prepare and compile:
 
 1. Run `npm install` to download and prepare dependencies.
 2. Run `grunt`, and check `dist/` directory for outputs.
 
+## Bugs and feature requests
+
+To report a bug or request a new feature [please open a new issue](https://github.com/morteza/bootstrap-rtl/issues).
 
 ## Author
 
