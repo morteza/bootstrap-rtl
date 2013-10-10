@@ -33,6 +33,7 @@ h6,
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand {
     margin-right: -15px;
+    margin-left: 0;
   }
 }
 
@@ -121,4 +122,43 @@ h6,
 .navbar-nav > li > .dropdown-menu.pull-left {
   right: auto;
   left: 0;
+}
+
+.nav-tabs-justified > li > a {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  .nav-tabs-justified > li > a {
+    border-radius: 4px 0 0 4px;
+  }
+}
+
+.nav-tabs > li {
+  float: right;
+}
+
+.nav-tabs > li > a {
+  margin-left: 2px;
+  border-radius: 4px 0 0 4px;
+}
+
+.nav-pills > li {
+  float: right;
+}
+
+.nav-pills > li > a {
+  border-radius: 4px;
+}
+
+.nav-pills > li + li {
+  margin-right: 2px;
+}
+
+.nav-stacked > li + li {
+  margin-right: 0;
+}
+
+.nav {
+  padding-right: 0;
 }

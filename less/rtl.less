@@ -27,6 +27,7 @@ h1, h2, h3, h4, h5, h6,
   @media (min-width: @grid-float-breakpoint) {
     .navbar > .container & {
       margin-right: -@navbar-padding-horizontal;
+      margin-left: 0;
     }
   }
 }
@@ -175,4 +176,65 @@ h1, h2, h3, h4, h5, h6,
 .navbar-nav > li > .dropdown-menu.pull-left {
   right: auto;
   left: 0;
+}
+
+// Justified navbar
+
+.nav-tabs-justified {
+
+  > li > a {
+    margin-left: 0;
+  }
+
+  @media (min-width: @screen-sm-min) {
+    > li > a {
+      border-radius: @border-radius-base 0 0 @border-radius-base;
+    }
+  }
+}
+
+// Give the tabs something to sit on
+.nav-tabs {
+  > li {
+    float: right;
+
+    // Actual tabs (as links)
+    > a {
+      margin-left: 2px;
+      border-radius: @border-radius-base 0 0 @border-radius-base;
+    }
+  }
+}
+
+
+// Pills
+// -------------------------
+.nav-pills {
+  > li {
+    float: right;
+
+    // Links rendered as pills
+    > a {
+      border-radius: @nav-pills-border-radius;
+    }
+    + li {
+      margin-right: 2px;
+    }
+  }
+}
+
+
+// Stacked pills
+.nav-stacked {
+  > li {
+    + li {
+      margin-right: 0; // no need for this gap between nav items
+    }
+  }
+}
+
+// Base nav class
+
+.nav {
+  padding-right: 0; // Override default ul/ol
 }
