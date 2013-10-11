@@ -4,6 +4,8 @@
 
 Bootstrap RTL provides simple yet robust right-to-left capability for Bootstrap 3. Simply add its CSS to the pages designed by Bootstrap 3.
 
+[![Build Status](https://travis-ci.org/morteza/bootstrap-rtl.png)](https://travis-ci.org/morteza/bootstrap-rtl)
+
 ## Quick start
 
 To get started, **[download latest version](https://github.com/morteza/bootstrap-rtl/releases)**. Check `examples/` directory for more. It's just like Bootstrap 3, nothing special. You can also install it via bower:
