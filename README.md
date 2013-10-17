@@ -1,8 +1,8 @@
-# Bootstrap RTL
+# Bootstrap 3 RTL Theme
 
 > Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development.
 
-Bootstrap RTL provides simple yet robust right-to-left capability for Bootstrap 3. Simply add its CSS to the pages designed by Bootstrap 3.
+Bootstrap RTL provides simple yet robust right-to-left capability for Bootstrap 3, by employing new theming feature of it. Simply add its CSS after bootstrap's original CSS, to the pages designed by Bootstrap 3.
 
 [![Build Status](https://travis-ci.org/morteza/bootstrap-rtl.png)](https://travis-ci.org/morteza/bootstrap-rtl)
 
