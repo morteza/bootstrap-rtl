@@ -1,7 +1,7 @@
 /*******************************************************************************
 *        File: bootstrap-rtl.css
 *      Author: Morteza Ansarinia <ansarinia@me.com>
-*  Created on: October 10,2013
+*  Created on: October 18,2013
 *     Project: bootstrap-rtl
 *   Copyright: See the file "LICENSE" for the full license governing this code.
 *******************************************************************************/
@@ -77,6 +77,98 @@ h6,
   }
   .navbar-nav > li {
     float: right;
+  }
+}
+
+.nav-justified {
+  width: 100%;
+}
+
+.nav-justified > li {
+  float: none;
+}
+
+.nav-justified > li > a {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  .nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #dddddd;
+}
+
+.nav-tabs > li {
+  float: right;
+  margin-bottom: -1px;
+}
+
+.nav-tabs > li > a {
+  margin-right: -2px;
+  border-radius: 4px 4px 0 0;
+}
+
+.nav-tabs.nav-justified {
+  width: 100%;
+}
+
+.nav-tabs.nav-justified > li {
+  float: none;
+}
+
+.nav-tabs.nav-justified > li > a {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .nav-tabs.nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  .nav-tabs.nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+
+.nav-tabs.nav-justified > li > a {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  .nav-tabs.nav-justified > li > a {
+    color: blue;
+    border-radius: 4px 4px 0 0;
+  }
+}
+
+.nav-tabs.nav-justified > li > a {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  .nav-tabs.nav-justified > li > a {
+    border-radius: 4px 0 0 4px;
+  }
+}
+
+.nav-tabs-justified > li > a {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  .nav-tabs-justified > li > a {
+    color: blue;
+    border-radius: 4px 4px 0 0;
   }
 }
 
@@ -161,4 +253,57 @@ h6,
 
 .nav {
   padding-right: 0;
+}
+
+.input-group .form-control:first-child,
+.input-group-addon:first-child,
+.input-group-btn:first-child > .btn,
+.input-group-btn:first-child > .dropdown-toggle,
+.input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle) {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.input-group-addon:first-child {
+  border-right: 1px solid #cccccc;
+  border-left: 0;
+}
+
+.input-group .form-control:last-child,
+.input-group-addon:last-child,
+.input-group-btn:last-child > .btn,
+.input-group-btn:last-child > .dropdown-toggle,
+.input-group-btn:first-child > .btn:not(:first-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.input-group-addon:last-child {
+  border-right: 0;
+  border-left: 1px solid #cccccc;
+}
+
+.input-group-btn:first-child > .btn {
+  margin-left: -1px;
+}
+
+.input-group-btn:last-child > .btn {
+  margin-right: -1px;
+}
+
+.input-group-btn > .btn {
+  position: relative;
+}
+
+.input-group-btn > .btn + .btn {
+  margin-right: -4px;
+}
+
+.input-group-btn > .btn:hover,
+.input-group-btn > .btn:active {
+  z-index: 2;
 }
