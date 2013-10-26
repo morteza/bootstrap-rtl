@@ -26,7 +26,7 @@ Bootstrap RTL uses [Grunt](http://gruntjs.com/) for working with the framework. 
 
 ## Bugs and feature requests
 
-To report a bug or request a new feature [please open a new issue](https://github.com/morteza/bootstrap-rtl/issues).
+If you want a bug fixed, *fork* the project, *do* whatever it takes by yourself, and finally submit a *pull* request.
 
 ## Author
 
