@@ -1,7 +1,7 @@
 /*******************************************************************************
 *        File: bootstrap-rtl.css
 *      Author: Morteza Ansarinia <ansarinia@me.com>
-*  Created on: October 18,2013
+*  Created on: October 29,2013
 *     Project: bootstrap-rtl
 *   Copyright: See the file "LICENSE" for the full license governing this code.
 *******************************************************************************/
@@ -306,4 +306,38 @@ h6,
 .input-group-btn > .btn:hover,
 .input-group-btn > .btn:active {
   z-index: 2;
+}
+
+.radio,
+.checkbox {
+  padding-right: 20px;
+}
+
+.radio input[type="radio"],
+.radio-inline input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
+  float: right;
+  margin-right: -20px;
+}
+
+.radio-inline + .radio-inline,
+.checkbox-inline + .checkbox-inline {
+  margin-right: 10px;
+}
+
+.form-inline .radio,
+.form-inline .checkbox {
+  padding-right: 0;
+}
+
+.form-inline .radio input[type="radio"],
+.form-inline .checkbox input[type="checkbox"] {
+  margin-right: 0;
+}
+
+@media (min-width: 768px) {
+  .form-horizontal .control-label {
+    text-align: left;
+  }
 }

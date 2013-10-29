@@ -359,3 +359,47 @@ h1, h2, h3, h4, h5, h6,
     z-index: 2;
   }
 }
+
+.radio,
+.checkbox {
+  padding-right: 20px;
+}
+
+.radio input[type="radio"],
+.radio-inline input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
+  float: right;
+  margin-right: -20px;
+}
+
+.radio-inline + .radio-inline,
+.checkbox-inline + .checkbox-inline {
+  margin-right: 10px; // space out consecutive inline controls
+}
+
+.form-inline {
+
+    // Remove default margin on radios/checkboxes that were used for stacking, and
+    // then undo the floating of radios and checkboxes to match (which also avoids
+    // a bug in WebKit: https://github.com/twbs/bootstrap/issues/1969).
+    .radio,
+    .checkbox {
+      padding-right: 0;
+    }
+    .radio input[type="radio"],
+    .checkbox input[type="checkbox"] {
+      margin-right: 0;
+    }
+}
+
+// Horizontal forms
+//
+.form-horizontal {
+  // Only right align form labels here when the columns stop stacking
+  @media (min-width: @screen-sm-min) {
+    .control-label {
+      text-align: left;
+    }
+  }
+}
