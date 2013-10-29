@@ -55,6 +55,20 @@ h1, h2, h3, h4, h5, h6,
   margin-left: @navbar-padding-horizontal;
 }
 
+.navbar-collapse {
+  @media (min-width: @grid-float-breakpoint) {
+    width: auto;
+    border-top: 0;
+    box-shadow: none;
+
+    .navbar-nav.navbar-right:last-child {
+      margin-right: 0;
+    }
+    
+  }
+}
+
+
 // Navbar form
 //
 // Extension of the `.form-inline` with some extra flavor for optimum display in
@@ -105,6 +119,8 @@ h1, h2, h3, h4, h5, h6,
   }
 
 }
+
+
 
 .nav-justified {
   width: 100%;
@@ -266,7 +282,6 @@ h1, h2, h3, h4, h5, h6,
     // Actual tabs (as links)
     > a {
       margin-left: 2px;
-      border-radius: @border-radius-base 0 0 @border-radius-base;
     }
   }
 }
@@ -358,4 +373,26 @@ h1, h2, h3, h4, h5, h6,
   &:active {
     z-index: 2;
   }
+}
+
+// Form
+// -------------------
+.radio input[type="radio"],
+.radio-inline input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
+  float: right;
+  margin-right: -20px;
+}
+
+.radio, .checkbox
+{
+	padding-left: 0;
+	padding-right: 20px;
+}
+
+// Tables
+// -----------------
+th {
+  text-align: right;
 }
