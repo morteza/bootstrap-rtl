@@ -156,9 +156,7 @@ h6,
 }
 
 @media (min-width: 768px) {
-  .nav-tabs.nav-justified > li > a {
-    border-radius: 4px 0 0 4px;
-  }
+  
 }
 
 .nav-tabs-justified > li > a {
@@ -221,9 +219,7 @@ h6,
 }
 
 @media (min-width: 768px) {
-  .nav-tabs-justified > li > a {
-    border-radius: 4px 0 0 4px;
-  }
+  
 }
 
 .nav-tabs > li {
@@ -232,7 +228,6 @@ h6,
 
 .nav-tabs > li > a {
   margin-left: 2px;
-  border-radius: 4px 0 0 4px;
 }
 
 .nav-pills > li {
