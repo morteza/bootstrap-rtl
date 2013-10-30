@@ -1,7 +1,7 @@
 /*******************************************************************************
 *        File: bootstrap-rtl.css
 *      Author: Morteza Ansarinia <ansarinia@me.com>
-*  Created on: October 29,2013
+*  Created on: October 30,2013
 *     Project: bootstrap-rtl
 *   Copyright: See the file "LICENSE" for the full license governing this code.
 *******************************************************************************/
@@ -46,17 +46,6 @@ h6,
 .navbar-toggle {
   float: left;
   margin-left: 15px;
-}
-
-@media (min-width: 768px) {
-  .navbar-collapse {
-    width: auto;
-    border-top: 0;
-    box-shadow: none;
-  }
-  .navbar-collapse .navbar-nav.navbar-right:last-child {
-    margin-right: 0;
-  }
 }
 
 .navbar-form {
@@ -243,6 +232,7 @@ h6,
 
 .nav-tabs > li > a {
   margin-left: 2px;
+  border-radius: 4px 0 0 4px;
 }
 
 .nav-pills > li {
@@ -318,6 +308,11 @@ h6,
   z-index: 2;
 }
 
+.radio,
+.checkbox {
+  padding-right: 20px;
+}
+
 .radio input[type="radio"],
 .radio-inline input[type="radio"],
 .checkbox input[type="checkbox"],
@@ -326,14 +321,25 @@ h6,
   margin-right: -20px;
 }
 
-.radio,
-.checkbox {
-  padding-right: 20px;
-  padding-left: 0;
+.radio-inline + .radio-inline,
+.checkbox-inline + .checkbox-inline {
+  margin-right: 10px;
 }
 
-th {
-  text-align: right;
+.form-inline .radio,
+.form-inline .checkbox {
+  padding-right: 0;
+}
+
+.form-inline .radio input[type="radio"],
+.form-inline .checkbox input[type="checkbox"] {
+  margin-right: 0;
+}
+
+@media (min-width: 768px) {
+  .form-horizontal .control-label {
+    text-align: left;
+  }
 }
 
 .container {
