@@ -1,7 +1,7 @@
 /*******************************************************************************
 *        File: bootstrap-rtl.css
 *      Author: Morteza Ansarinia <ansarinia@me.com>
-*  Created on: October 30,2013
+*  Created on: October 31,2013
 *     Project: bootstrap-rtl
 *   Copyright: See the file "LICENSE" for the full license governing this code.
 *******************************************************************************/
@@ -46,6 +46,17 @@ h6,
 .navbar-toggle {
   float: left;
   margin-left: 15px;
+}
+
+@media (min-width: 768px) {
+  .navbar-collapse {
+    width: auto;
+    border-top: 0;
+    box-shadow: none;
+  }
+  .navbar-collapse .navbar-nav.navbar-right:last-child {
+    margin-right: 0;
+  }
 }
 
 .navbar-form {
@@ -335,6 +346,10 @@ h6,
   .form-horizontal .control-label {
     text-align: left;
   }
+}
+
+th {
+  text-align: right;
 }
 
 .container {

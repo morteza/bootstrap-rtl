@@ -55,6 +55,20 @@ h1, h2, h3, h4, h5, h6,
   margin-left: @navbar-padding-horizontal;
 }
 
+.navbar-collapse {
+  @media (min-width: @grid-float-breakpoint) {
+    width: auto;
+    border-top: 0;
+    box-shadow: none;
+
+    .navbar-nav.navbar-right:last-child {
+      margin-right: 0;
+    }
+    
+  }
+}
+
+
 // Navbar form
 //
 // Extension of the `.form-inline` with some extra flavor for optimum display in
@@ -400,4 +414,10 @@ h1, h2, h3, h4, h5, h6,
       text-align: left;
     }
   }
+}
+
+// Tables
+// -----------------
+th {
+  text-align: right;
 }
