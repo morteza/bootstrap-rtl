@@ -44,3 +44,7 @@ See the file [LICENSE](LICENSE) for the full license governing this project.
 #### Bootstrap
 &copy; 2013 Twitter, Inc. Under [the Apache 2.0 license](LICENSE.bootstrap).
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/morteza/bootstrap-rtl/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
