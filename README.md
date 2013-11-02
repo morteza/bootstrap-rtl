@@ -4,7 +4,9 @@
 
 Bootstrap RTL provides simple yet robust right-to-left capability for Bootstrap 3, by employing new theming feature of it. Simply add its CSS after bootstrap's original CSS, to the pages designed by Bootstrap 3.
 
-[![Build Status](https://travis-ci.org/morteza/bootstrap-rtl.png)](https://travis-ci.org/morteza/bootstrap-rtl)
+[![Build Status](https://travis-ci.org/morteza/bootstrap-rtl.png)](https://travis-ci.org/morteza/bootstrap-rtl) 
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/morteza/bootstrap-rtl/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
 
 ## Quick start
 
