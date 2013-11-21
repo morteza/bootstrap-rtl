@@ -1,0 +1,15 @@
+// Blockquotes
+
+blockquote {
+  border-right: 5px solid @blockquote-border-color;
+  border-left: 0;
+
+  // Float left with text-align: left
+  &.pull-left {
+    p,
+    small,
+    .small {
+      text-align: left;
+    }
+  }
+}

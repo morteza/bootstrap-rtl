@@ -1,13 +1,24 @@
 /*******************************************************************************
 *        File: bootstrap-rtl.css
 *      Author: Morteza Ansarinia <ansarinia@me.com>
-*  Created on: October 31,2013
+*  Created on: November 21,2013
 *     Project: bootstrap-rtl
 *   Copyright: See the file "LICENSE" for the full license governing this code.
 *******************************************************************************/
 
+blockquote {
+  border-right: 5px solid #eeeeee;
+  border-left: 0;
+}
+
+blockquote.pull-left p,
+blockquote.pull-left small,
+blockquote.pull-left .small {
+  text-align: left;
+}
+
 body {
-  font-family: "Iranian Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   direction: rtl;
 }
 
@@ -23,7 +34,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Iranian Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .navbar-brand {
