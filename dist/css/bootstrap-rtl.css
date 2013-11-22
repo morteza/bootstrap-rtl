@@ -1,7 +1,7 @@
 /*******************************************************************************
 *        File: bootstrap-rtl.css
 *      Author: Morteza Ansarinia <ansarinia@me.com>
-*  Created on: November 21,2013
+*  Created on: November 22,2013
 *     Project: bootstrap-rtl
 *   Copyright: See the file "LICENSE" for the full license governing this code.
 *******************************************************************************/
@@ -262,6 +262,10 @@ h6,
 
 .nav-pills > li + li {
   margin-right: 2px;
+}
+
+.nav-stacked > li {
+  float: none;
 }
 
 .nav-stacked > li + li {
