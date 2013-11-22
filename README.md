@@ -16,8 +16,10 @@ To get started, **[download latest version](https://github.com/morteza/bootstrap
 
 In addition to bootstrap distribution, LESS codes for RTL theme and compiled CSS (`bootstrap-rtl.css`) are provided, as well as minified CSS (`bootstrap-rtl.min.css`). Check `dist/` directory for all the codes you need.
 
+Check `examples/starter-template/index.html` for a minimal template to start with.
+
 #### Fonts
-*Glyphicons* and *Iranian Sans* are included for icons and farsi scripts, respectively.
+*Glyphicons* and ~~Iranian Sans~~ are included for icons and farsi scripts, respectively.
 
 ## Building CSS and JavaScript
 
