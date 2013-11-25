@@ -740,7 +740,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
 }
 
 code {
@@ -1953,7 +1953,6 @@ output {
 
 .form-control::-moz-placeholder {
   color: #999999;
-  opacity: 1;
 }
 
 .form-control:-ms-input-placeholder {
@@ -3463,6 +3462,7 @@ input[type="button"].btn-block {
   vertical-align: middle;
   border-top: 4px solid #000000;
   border-right: 4px solid transparent;
+  border-bottom: 0 dotted;
   border-left: 4px solid transparent;
 }
 
@@ -3580,7 +3580,7 @@ input[type="button"].btn-block {
 
 .dropup .caret,
 .navbar-fixed-bottom .dropdown .caret {
-  border-top: 0;
+  border-top: 0 dotted;
   border-bottom: 4px solid #000000;
   content: "";
 }
@@ -4666,13 +4666,13 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-text {
+  float: left;
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
 @media (min-width: 768px) {
   .navbar-text {
-    float: left;
     margin-right: 15px;
     margin-left: 15px;
   }
@@ -5393,6 +5393,24 @@ a.thumbnail.active {
   }
   to {
     background-position: 0 0;
+  }
+}
+
+@-moz-keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
+@-o-keyframes progress-bar-stripes {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 40px 0;
   }
 }
 
