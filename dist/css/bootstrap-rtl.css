@@ -1,7 +1,7 @@
 /*******************************************************************************
 *        File: bootstrap-rtl.css
 *      Author: Morteza Ansarinia <ansarinia@me.com>
-*  Created on: November 29,2013
+*  Created on: December 10,2013
 *     Project: bootstrap-rtl
 *   Copyright: See the file "LICENSE" for the full license governing this code.
 *******************************************************************************/
@@ -369,6 +369,11 @@ th {
 
 .list-group {
   padding-right: 0;
+}
+
+.btn-group > .btn,
+.btn-group-vertical > .btn {
+  float: right;
 }
 
 .container {
