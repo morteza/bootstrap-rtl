@@ -1,12 +1,16 @@
-# Bootstrap 3 RTL Theme
+# Bootstrap 3 RTL Theme [![Build Status](https://travis-ci.org/morteza/bootstrap-rtl.png)](https://travis-ci.org/morteza/bootstrap-rtl) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/morteza/bootstrap-rtl/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
 > Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development.
 
-Bootstrap RTL provides simple yet robust right-to-left capability for Bootstrap 3, by employing new theming feature of it. Simply add its CSS after bootstrap's original CSS, to the pages designed by Bootstrap 3.
+Bootstrap RTL provides simple yet robust right-to-left capability for Bootstrap 3, by employing new theming feature of it. Simply put its CSS after bootstrap's original CSS, to the pages designed by Bootstrap 3. It works just like an extension on top go the original Bootstrap:
 
-[![Build Status](https://travis-ci.org/morteza/bootstrap-rtl.png)](https://travis-ci.org/morteza/bootstrap-rtl) 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/morteza/bootstrap-rtl/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+```html
+<!-- Original Bootstrap 3.x -->
+<link rel="stylesheet" href="bootstrap.css">
 
+<!-- Bootstrap RTL Theme -->
+<link rel="stylesheet" href="bootstrap-rtl.css">
+```
 
 ## Quick start
 
@@ -28,9 +32,22 @@ Bootstrap RTL uses [Grunt](http://gruntjs.com/) for working with the framework. 
 1. Run `npm install` to download and prepare dependencies.
 2. Run `grunt`, and check `dist/` directory for outputs.
 
-## Bugs and feature requests
+## Development
 
-If you want a bug fixed, *fork* the project, *do* whatever it takes by yourself, and finally submit a *pull* request.
+Contributors to Bootstrap RTL must agree the license by signing on the bottom of the `CONTRIBUTORS.md` file. To contribute:
+
+- [fork the bootstrap-rtl repository](https://github.com/morteza/bootstrap-rtl/fork).
+- make your changes
+- *first time contributors*: Sign `CONTRIBUTORS.md` by adding your github username, full name, email address, and first contribution date. As follows:
+    `YYYY/MM/DD, Github Username, Full Name, Email Address`
+- commit your changes.
+- send a pull request.
+
+You don't have to sign your commits. I can merge by simply checking your name in the CONTRIBUTORS file.
+
+### Feature requests, and bug fixes
+
+If you want a feature or a bug fixed, [report it via project's issues tracker](https://github.com/morteza/bootstrap-rtl/issues). However, if it's something you can fix yourself, *fork* the project, *do* whatever it takes to resolve it, and finally submit a *pull* request. I will personally thank you, and add your name to the list of contributors.
 
 ## Author
 
