@@ -43,7 +43,9 @@ Contributors to Bootstrap RTL must agree the license by signing on the bottom of
 - commit your changes.
 - send a pull request.
 
-You don't have to sign your commits. I can merge by simply checking your name in the CONTRIBUTORS file.
+
+***Important Notice:* Before submitting any pull request, please ensure that your changes merge cleanly with the main repository at morteza/bootstrap-rtl.**
+
 
 ### Feature requests, and bug fixes
 
