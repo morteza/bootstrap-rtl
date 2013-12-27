@@ -1,7 +1,7 @@
 /*******************************************************************************
 *        File: bootstrap-rtl.css
 *      Author: Morteza Ansarinia <ansarinia@me.com>
-*  Created on: December 15,2013
+*  Created on: December 27,2013
 *     Project: bootstrap-rtl
 *   Copyright: See the file "LICENSE" for the full license governing this code.
 *******************************************************************************/
@@ -984,4 +984,13 @@ th {
   .col-lg-offset-11 {
     margin-right: 91.66666666666666%;
   }
+}
+
+.list-group-item > .badge {
+  float: left;
+}
+
+.list-group-item > .badge + .badge {
+  margin-right: 0;
+  margin-left: 5px;
 }
