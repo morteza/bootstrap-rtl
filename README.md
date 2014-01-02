@@ -1,4 +1,4 @@
-# Bootstrap 3 RTL Theme [![Build Status](https://travis-ci.org/morteza/bootstrap-rtl.png)](https://travis-ci.org/morteza/bootstrap-rtl) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/morteza/bootstrap-rtl/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+# Bootstrap 3 RTL Theme ![Total views](https://sourcegraph.com/api/repos/github.com/morteza/bootstrap-rtl/counters/views.png) ![Build Status](https://travis-ci.org/morteza/bootstrap-rtl.png) ![Trending Badge](https://d2weczhvl823v0.cloudfront.net/morteza/bootstrap-rtl/trend.png)
 
 > Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development.
 
