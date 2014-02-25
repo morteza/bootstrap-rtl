@@ -1,4 +1,4 @@
-# Bootstrap 3 RTL Theme &nbsp;&nbsp;![Build Status](https://travis-ci.org/morteza/bootstrap-rtl.png)&nbsp;![Trending Badge](https://d2weczhvl823v0.cloudfront.net/morteza/bootstrap-rtl/trend.png)
+# Bootstrap 3 RTL Theme &nbsp;&nbsp;![Build Status](https://travis-ci.org/ratnic/bootstrap-rtl.png)
 
 > Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development.
 
