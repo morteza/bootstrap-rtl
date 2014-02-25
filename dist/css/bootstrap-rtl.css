@@ -1,7 +1,7 @@
 /*******************************************************************************
 *        File: bootstrap-rtl.css
 *      Author: Morteza Ansarinia <ansarinia@me.com>
-*  Created on: February 22,2014
+*  Created on: February 25,2014
 *     Project: bootstrap-rtl
 *   Copyright: See the file "LICENSE" for the full license governing this code.
 *******************************************************************************/
@@ -417,6 +417,8 @@ th {
 }
 
 .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
 }
@@ -425,6 +427,8 @@ th {
 .btn-group > .dropdown-toggle:not(:first-child) {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 .btn-group > .btn-group {
@@ -432,11 +436,14 @@ th {
 }
 
 .btn-group > .btn-group:not(:first-child):not(:last-child) > .btn {
-  border-radius: 0;
+  /*border-radius: 0;*/
+
 }
 
 .btn-group > .btn-group:first-child > .btn:last-child,
 .btn-group > .btn-group:first-child > .dropdown-toggle {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
 }
@@ -444,6 +451,8 @@ th {
 .btn-group > .btn-group:last-child > .btn:first-child {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 .container {
