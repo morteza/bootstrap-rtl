@@ -319,6 +319,41 @@ h1, h2, h3, h4, h5, h6,
 }
 
 
+// Justified nav links
+// -------------------------
+
+.nav-tabs.nav-justified,
+.nav-pills.nav-justified {
+  width: 100%;
+  > li {
+    float: none!important;
+     > a {
+      text-align: center;
+      margin-bottom: 5px;
+    }
+  }
+
+  > .dropdown .dropdown-menu {
+    top: auto;
+    left: auto;
+  }
+
+  @media (min-width: @screen-sm-min) {
+    > li {
+      display: table-cell;
+      width: 1%;
+      > a {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.nav-tabs.nav-justified > li > a {
+  color:@link-color;
+}
+ 
+
 // Reverse input group round corners in RTL
 
 // Reset rounded corners
@@ -416,6 +451,21 @@ h1, h2, h3, h4, h5, h6,
       text-align: left;
     }
   }
+}
+
+// Popovers
+// -------------------------
+.popover.top, 
+.popover.bottom {
+  direction:ltr
+}
+
+.popover.top .popover-title, 
+.popover.top .popover-content,
+.popover.bottom .popover-title, 
+.popover.bottom .popover-content  {
+  direction:rtl;
+  text-align:right;
 }
 
 // Tables
