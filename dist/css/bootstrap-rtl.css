@@ -1071,6 +1071,20 @@ th {
 .pager .previous > span {
   float: right;
 }
+.modal-footer {
+  text-align: left;
+}
+.modal-footer .btn + .btn {
+  margin-right: 5px;
+  margin-left: 0px;
+}
+.modal-footer .btn-group .btn + .btn {
+  margin-right: -1px;
+  margin-left: 0px;
+}
+.modal-footer .btn-block + .btn-block {
+  margin-right: 0;
+}
 .carousel-inner > .item {
   -webkit-transition: 0.6s ease-in-out left;
   -o-transition: 0.6s ease-in-out left;

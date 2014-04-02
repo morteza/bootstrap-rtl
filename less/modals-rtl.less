@@ -1,0 +1,22 @@
+// Modals for RTL theme
+
+// Footer (for actions)
+
+.modal-footer {
+  text-align: left; // left align buttons in RTL theme
+
+  // Properly space out buttons
+  .btn + .btn {
+    margin-right: 5px;
+    margin-left: 0px;
+  }
+  // but override that for button groups
+  .btn-group .btn + .btn {
+    margin-right: -1px;
+    margin-left: 0px;
+  }
+  // and override it for block buttons as well
+  .btn-block + .btn-block {
+    margin-right: 0;
+  }
+}
