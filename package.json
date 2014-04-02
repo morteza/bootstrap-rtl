@@ -3,14 +3,14 @@
   , "description": "Right-to-left theme for Boostrap; A Front-end framework for faster and easier web development."
   , "version": "3.0.0"
   , "keywords": ["bootstrap", "css","rtl"]
-  , "homepage": "http://github.com/morteza/bootstrap-rtl"
-  , "author": "Morteza Ansarinia <ansarinia@me.com>"
+  , "homepage": "http://github.com/ratnic/bootstrap-rtl"
+  , "author": "Morteza Ansarinia <morteza@ratnic.se>"
   , "repository": {
       "type": "git"
-    , "url": "https://github.com/morteza/bootstrap-rtl.git"
+    , "url": "https://github.com/ratnic/bootstrap-rtl.git"
   }
   , "bugs": {
-      "url": "https://github.com/morteza/bootstrap-rtl/issues"
+      "url": "https://github.com/ratnic/bootstrap-rtl/issues"
   }
   , "licenses": [
     {

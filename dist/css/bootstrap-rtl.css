@@ -27,29 +27,12 @@ blockquote.pull-left .small {
     margin-right: 180px;
   }
 }
-body {
-  direction: rtl;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
 .navbar-brand {
   float: right;
 }
 @media (min-width: 768px) {
-  .navbar > .container .navbar-brand {
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
     margin-right: -15px;
     margin-left: 0;
   }
@@ -118,6 +101,24 @@ h6,
   .nav-justified > li > a {
     margin-bottom: 0;
   }
+}
+body {
+  direction: rtl;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .nav-tabs {
   border-bottom: 1px solid #dddddd;
