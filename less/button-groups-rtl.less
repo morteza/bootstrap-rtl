@@ -40,14 +40,14 @@
   margin-right: 0;
   &:not(:last-child):not(.dropdown-toggle) {
     .border-left-radius(0);
-    .border-right-radius(@border-radius-base); 
+    .border-right-radius(@border-radius-base);
   }
 }
 // Need .dropdown-toggle since :last-child doesn't apply given a .dropdown-menu immediately after it
 .btn-group > .btn:last-child:not(:first-child),
 .btn-group > .dropdown-toggle:not(:first-child) {
   .border-right-radius(0);
-  .border-left-radius(@border-radius-base); 
+  .border-left-radius(@border-radius-base);
 }
 
 // Custom edits for including btn-groups within btn-groups (useful for including dropdown buttons within a btn-group)
@@ -68,4 +68,14 @@
   .border-right-radius(0);
   .border-left-radius(@border-radius-base);
 
+}
+
+// Justified button groups
+// ----------------------
+
+.btn-group-justified {
+  > .btn,
+  > .btn-group {
+    float: none;
+  }
 }
