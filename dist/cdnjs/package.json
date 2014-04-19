@@ -2,7 +2,7 @@
   "name": "bootstrap-rtl",
   "filename": "css/bootstrap-rtl.min.css",
   "description": "Right-to-left (RTL) theme for Boostrap 3.",
-  "version": "3.1.1-RC1",
+  "version": "3.1.1-rc1",
   "homepage": "http://github.com/ratnic/bootstrap-rtl",
   "author": "Morteza Ansarinia <morteza@ratnic.se>",
   "keywords": [
@@ -20,9 +20,6 @@
       "type": "git"
     , "url": "https://github.com/ratnic/bootstrap-rtl.git"
   }],
-  "bugs": {
-      "url": "https://github.com/ratnic/bootstrap-rtl/issues"
-  },
   "licenses": [{
     "type": "Apache-2.0",
     "url": "http://www.apache.org/licenses/LICENSE-2.0"
