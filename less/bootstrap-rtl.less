@@ -1,36 +1,57 @@
-
-//
-// Right-to-Left for Bootstrap 3.0.0
-// Morteza Ansarinia <ansarinia@me.com>
+// --------------------------------------------------
+// Right-to-Left (RTL) Theme for Bootstrap 3.1.x
+// Morteza Ansarinia <morteza@ratnic.se>
+// http://github.com/ratnic/bootstrap-rtl
 // --------------------------------------------------
 
-// Original LESS files from the latest bootstrap
+// Core variables and mixins imported from the latest original bootstrap
 @import "../bootstrap/less/variables.less";
 @import "../bootstrap/less/mixins.less";
+@import "mixins-rtl.less";
 
-// Core RTL CSS
+// Reset and dependencies
+@import "normalize-rtl.less";
+//@import "print.less";
+//@import "glyphicons.less";
+
+// Core CSS
+//@import "scaffolding.less";
 @import "type-rtl.less";
-
-// Components
-@import "navbar-rtl.less";
-
-// Right-to-left the original bootstrap - to be removed
-@import "merged-rtl.less";
-
-@import "button-groups-rtl.less";
-
+//@import "code.less";
 @import "grid-rtl.less";
-
-// List groups and badges inside them
-@import "list-group-rtl.less";
+@import "tables-rtl.less";
+@import "forms-rtl.less";
+//@import "buttons.less";
 
 // Components
+//@import "component-animations.less";
+@import "dropdowns-rtl.less";
+@import "button-groups-rtl.less";
+@import "input-groups-rtl.less";
+@import "navs-rtl.less";
+@import "navbar-rtl.less";
+//@import "breadcrumbs.less";
 @import "pagination-rtl.less";
 @import "pager-rtl.less";
-@import "modals-rtl.less";
+//@import "labels.less";
+@import "badges-rtl.less";
+//@import "jumbotron.less";
+//@import "thumbnails.less";
+@import "alerts-rtl.less";
+@import "progress-bars-rtl.less";
+@import "media-rtl.less";
+@import "list-group-rtl.less";
+@import "panels-rtl.less";
+@import "responsive-embed-rtl.less";
+//@import "wells.less";
+@import "close-rtl.less";
 
 // Components w/ JavaScript
+@import "modals-rtl.less";
+//@import "tooltip.less";
+@import "popovers-rtl.less";
 @import "carousel-rtl.less";
 
-// Theme for visual enhancement
-@import "theme.less";
+// Utility classes
+//@import "utilities.less";
+//@import "responsive-utilities.less";

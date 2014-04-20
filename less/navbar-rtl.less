@@ -1,18 +1,7 @@
-// Navbar for RTL Theme
+//
+// RTL Navbars
+// --------------------------------------------------
 
-// Brand/project name
-
-.navbar-brand {
-  float: right;
-
-  @media (min-width: @grid-float-breakpoint) {
-    .navbar > .container &,
-    .navbar > .container-fluid & {
-      margin-right: -@navbar-padding-horizontal;
-      margin-left: 0;
-    }
-  }
-}
 
 // Navbar heading
 //
@@ -26,6 +15,38 @@
   }
 }
 
+
+// Navbar collapse (body)
+//
+// Group your navbar content into this for easy collapsing and expanding across
+// various device sizes. By default, this content is collapsed when <768px, but
+// will expand past that for a horizontal display.
+//
+// To start (on mobile devices) the navbar links, forms, and buttons are stacked
+// vertically and include a `max-height` to overflow in case you have too much
+// content for the user's viewport.
+
+.navbar-collapse {
+  padding-right: @navbar-padding-horizontal;
+  padding-left:  @navbar-padding-horizontal;
+}
+
+
+// Brand/project name
+
+.navbar-brand {
+  float: right;
+
+  @media (min-width: @grid-float-breakpoint) {
+    .navbar > .container &,
+    .navbar > .container-fluid & {
+      margin-right: -@navbar-padding-horizontal;
+      margin-left: auto;
+    }
+  }
+}
+
+
 // Navbar toggle
 //
 // Custom button for toggling the `.navbar-collapse`, powered by the collapse
@@ -34,53 +55,18 @@
 .navbar-toggle {
   float: left;
   margin-left: @navbar-padding-horizontal;
+  margin-right: auto;
 }
 
-.navbar-collapse {
-  @media (min-width: @grid-float-breakpoint) {
-    width: auto;
-    border-top: 0;
-    box-shadow: none;
-
-    .navbar-nav.navbar-right:last-child {
-      margin-right: 0;
-    }
-
-  }
-}
-
-
-// Navbar form
-//
-// Extension of the `.form-inline` with some extra flavor for optimum display in
-// our navbars.
-
-.navbar-form {
-  margin-left: -@navbar-padding-horizontal;
-  margin-right: -@navbar-padding-horizontal;
-}
-
-// Text in navbars
-//
-// Add a class to make any element properly align itself vertically within the navbars.
-
-.navbar-text {
-  float: right;
-
-  @media (min-width: @grid-float-breakpoint) {
-    margin-left: @navbar-padding-horizontal;
-    margin-right: @navbar-padding-horizontal;
-  }
-}
 
 // Navbar nav links
 //
-// Builds on top of the `.nav` components with it's own modifier class to make
+// Builds on top of the `.nav` components with its own modifier class to make
 // the nav the full height of the horizontal nav (above 768px).
 
 .navbar-nav {
 
-  @media (max-width: @screen-xs-max) {
+  @media (max-width: @grid-float-breakpoint-max) {
     // Dropdowns get custom display when collapsed
     .open .dropdown-menu {
       > li > a,
@@ -97,28 +83,27 @@
     > li {
       float: right;
     }
-  }
 
-}
-
-.nav-justified {
-  width: 100%;
-
-  > li {
-    float: none;
-     > a {
-      text-align: center;
-      margin-bottom: 5px;
+    &.navbar-right:last-child {
+      margin-left: -@navbar-padding-horizontal;
+      margin-right: auto;
     }
   }
+}
 
-  @media (min-width: @screen-sm-min) {
-    > li {
-      display: table-cell;
-      width: 1%;
-      > a {
-        margin-bottom: 0;
-      }
+// Text in navbars
+//
+// Add a class to make any element properly align itself vertically within the navbars.
+
+.navbar-text {
+
+  @media (min-width: @grid-float-breakpoint) {
+    float: right;
+
+    // Outdent the form if last child to line up with content down the page
+    &.navbar-right:last-child {
+      margin-left: 0;
+      margin-right: auto;
     }
   }
 }

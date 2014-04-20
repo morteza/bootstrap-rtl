@@ -1,0 +1,40 @@
+//
+// RTL Dropdown menus
+// --------------------------------------------------
+
+
+// Dropdown arrow/caret
+.caret {
+  margin-right: 2px;
+  margin-left: 0;
+}
+
+// The dropdown menu (ul)
+.dropdown-menu {
+  right: 0;
+  left: auto;
+  float: left;
+  text-align: right; // Ensures proper alignment if parent has it changed (e.g., modal footer)
+
+  // Aligns the dropdown menu to left
+  &.pull-left {
+    left: 0;
+    float: right;
+    right: auto;
+  }
+
+}
+
+// Left aligned dropdowns
+.pull-left > .dropdown-menu {
+  left: 0;
+  float: right;
+  right: auto;
+}
+
+// Right aligned menus need alt position
+.navbar-nav.pull-left > li > .dropdown-menu,
+.navbar-nav > li > .dropdown-menu.pull-left {
+  right: auto;
+  left: 0;
+}

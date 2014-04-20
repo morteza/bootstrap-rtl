@@ -1,5 +1,5 @@
 //
-// Button groups
+// RTL Button groups
 // --------------------------------------------------
 
 // Make the div behave like a button
@@ -7,6 +7,15 @@
 .btn-group-vertical {
   > .btn {
     float: right;
+    // Bring the "active" button to the front
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+      z-index: 2;
+    }
+    &:focus {
+    }
   }
 }
 
@@ -17,12 +26,14 @@
   .btn-group + .btn,
   .btn-group + .btn-group {
     margin-right: -1px;
+    margin-left: 0px;
   }
 }
 
 // Optional: Group multiple button groups together for a toolbar
 .btn-toolbar {
   margin-right: -5px; // Offset the first child's margin
+  margin-left: 0px;
 
   .btn-group,
   .input-group {
@@ -32,6 +43,7 @@
   > .btn-group,
   > .input-group {
     margin-right: 5px;
+    margin-left: 0px;
   }
 }
 
@@ -40,14 +52,12 @@
   margin-right: 0;
   &:not(:last-child):not(.dropdown-toggle) {
     .border-left-radius(0);
-    .border-right-radius(@border-radius-base);
   }
 }
 // Need .dropdown-toggle since :last-child doesn't apply given a .dropdown-menu immediately after it
 .btn-group > .btn:last-child:not(:first-child),
 .btn-group > .dropdown-toggle:not(:first-child) {
   .border-right-radius(0);
-  .border-left-radius(@border-radius-base);
 }
 
 // Custom edits for including btn-groups within btn-groups (useful for including dropdown buttons within a btn-group)
@@ -55,27 +65,33 @@
   float: right;
 }
 .btn-group > .btn-group:not(:first-child):not(:last-child) > .btn {
-  /*border-radius: 0;*/
+  border-radius: 0;
 }
 .btn-group > .btn-group:first-child {
   > .btn:last-child,
   > .dropdown-toggle {
     .border-left-radius(0);
-    .border-right-radius(@border-radius-base);
   }
 }
 .btn-group > .btn-group:last-child > .btn:first-child {
   .border-right-radius(0);
-  .border-left-radius(@border-radius-base);
-
 }
 
-// Justified button groups
+// Reposition the caret
+.btn .caret {
+  margin-right: 0;
+}
+
+// Vertical button groups
 // ----------------------
 
-.btn-group-justified {
-  > .btn,
-  > .btn-group {
-    float: none;
+.btn-group-vertical {
+
+  > .btn + .btn,
+  > .btn + .btn-group,
+  > .btn-group + .btn,
+  > .btn-group + .btn-group {
+    margin-top: -1px;
+    margin-right: 0;
   }
 }

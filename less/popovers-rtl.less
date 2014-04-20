@@ -1,0 +1,23 @@
+//
+// Popovers
+// --------------------------------------------------
+
+
+.popover {
+  right: 0;
+  left: none;
+  text-align: right; // Reset given new insertion method
+}
+
+.popover {
+  &.top > .arrow {
+    right: 50%;
+    left: none;
+    margin-right: -@popover-arrow-outer-width;
+    margin-left: 0;
+    &:after {
+      margin-right: -@popover-arrow-width;
+      margin-left: 0;
+    }
+  }
+}

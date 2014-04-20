@@ -1,9 +1,107 @@
 //
-// TODO: Carousel
+// RTL Carousel
 // --------------------------------------------------
 
+
+
 .carousel-inner {
+
   > .item {
-    .transition(.6s ease-in-out left);
+    .transition(.6s ease-in-out right);
+  }
+
+
+  > .active {
+    right: 0;
+  }
+
+  > .next {
+    right: 100%;
+    left: 0;
+  }
+  > .prev {
+    right: -100%;
+  }
+  > .next.left,
+  > .prev.right {
+    right: 0;
+  }
+
+  > .active.right {
+    left: -100%;
+  }
+  > .active.left {
+    right: 100%;
+  }
+
+}
+
+// Left/right controls for nav
+// ---------------------------
+
+.carousel-control {
+  right: 0;
+  bottom: 0;
+
+  // Set gradients for backgrounds
+  &.left {
+    #gradient > .horizontal(@start-color: rgba(0,0,0,.5); @end-color: rgba(0,0,0,.0001));
+  }
+  &.right {
+    left: auto;
+    right: 0;
+    #gradient > .horizontal(@start-color: rgba(0,0,0,.0001); @end-color: rgba(0,0,0,.5));
+  }
+
+  .icon-prev,
+  .glyphicon-chevron-left {
+    left: 50%;
+    right: none;
+    margin-right: -10px;
+  }
+  .icon-next,
+  .glyphicon-chevron-right {
+    right: 50%;
+    left: none;
+    margin-left: -10px;
+  }
+}
+
+// Optional indicator pips
+//
+// Add an unordered list with the following class and add a list item for each
+// slide your carousel holds.
+
+.carousel-indicators {
+  right: 50%;
+  left: 0;
+  margin-right: -30%;
+  margin-left: 0;
+  padding-left: 0;
+
+}
+
+// Scale up controls for tablets and up
+@media screen and (min-width: @screen-sm-min) {
+
+  // Scale up the controls a smidge
+  .carousel-control {
+    .glyphicon-chevron-left,
+    .icon-prev {
+      margin-left: 0;
+      margin-right: -15px;
+    }
+    .glyphicon-chevron-right,
+    .icon-next {
+      margin-left: 0;
+      margin-right: -15px;
+    }
+  }
+
+  // Show and left align the captions
+  .carousel-caption {
+    left: 20%;
+    right: 20%;
+    padding-bottom: 30px;
   }
 }
