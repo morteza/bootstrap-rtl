@@ -1,12 +1,3 @@
-/*******************************************************************************
-*        File: bootstrap-rtl.css
-*     Version: 3.1.1-rc3
-*      Author: Morteza Ansarinia <morteza@ratnic.se>
-*  Created on: April 20,2014
-*     Website: http://github.com/ratnic/bootstrap-rtl
-*   Copyright: See the file "LICENSE" for the full license governing this code.
-*******************************************************************************/
-
 html {
   direction: rtl;
 }
@@ -2786,19 +2777,22 @@ th {
 .input-group-addon:last-child {
   border-right: 0;
 }
+.input-group-btn > .btn {
+  position: relative;
+}
 .input-group-btn > .btn + .btn {
   margin-right: -1px;
-  margin-left: 0;
+  margin-left: auto;
 }
 .input-group-btn:first-child > .btn,
 .input-group-btn:first-child > .btn-group {
   margin-left: -1px;
-  margin-right: 0;
+  margin-right: auto;
 }
 .input-group-btn:last-child > .btn,
 .input-group-btn:last-child > .btn-group {
   margin-right: -1px;
-  margin-left: 0;
+  margin-left: auto;
 }
 .nav {
   padding-right: 0;
