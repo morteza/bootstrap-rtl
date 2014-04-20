@@ -68,5 +68,5 @@ If you want a feature or a bug fixed, [report it via project's issues tracker](h
 See the file [LICENSE](LICENSE) for the full license governing this project.
 
 #### Bootstrap
-&copy; 2013 Twitter, Inc. Under [the Apache 2.0 license](LICENSE.bootstrap).
+&copy; 2011-2014 Twitter, Inc. Licensed under [the MIT License (MIT)](LICENSE.bootstrap).
 

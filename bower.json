@@ -1,18 +1,14 @@
 {
   "name": "bootstrap-rtl",
-  "version": "3.1.1-RC1",
+  "description": "Right-to-left (RTL) theme for Twitter Bootstrap 3.x.",
+  "version": "3.1.1",
   "homepage": "https://github.com/ratnic/bootstrap-rtl",
   "authors": [
     "Morteza Ansarinia <ansarinia@me.com>"
   ],
   "main": [
-    "./dist/css/bootstrap.css",
     "./dist/css/bootstrap-rtl.css",    
-    "./dist/js/bootstrap.js",
-    "./dist/fonts/glyphicons-halflings-regular.eot",
-    "./dist/fonts/glyphicons-halflings-regular.svg",
-    "./dist/fonts/glyphicons-halflings-regular.ttf",
-    "./dist/fonts/glyphicons-halflings-regular.woff"
+    "./dist/css/bootstrap-rtl.min.css",
   ],
   "ignore": [
     "**/.*",
