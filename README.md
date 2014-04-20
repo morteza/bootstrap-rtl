@@ -10,9 +10,13 @@ Bootstrap RTL provides simple yet robust right-to-left capability for Bootstrap 
 
 <!-- Bootstrap RTL Theme -->
 <link rel="stylesheet" href="bootstrap-rtl.css">
+```
 
-<!-- Or load Bootstrap RTL from CDN -->
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.1.1-rc1/css/bootstrap-rtl.min.css">
+Or load it from CDN:
+
+```html
+<!-- Load Bootstrap RTL theme from CDNJS -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.1.1/css/bootstrap-rtl.min.css">
 ```
 
 ## Quick start
