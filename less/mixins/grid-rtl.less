@@ -12,11 +12,11 @@
 }
 .make-xs-column-push(@columns) {
   right: percentage((@columns / @grid-columns));
-  left: 0;
+  left: auto;
 }
 .make-xs-column-pull(@columns) {
   left: percentage((@columns / @grid-columns));
-  right: 0;
+  right: auto;
 }
 
 // Generate the small columns
@@ -35,13 +35,13 @@
 .make-sm-column-push(@columns) {
   @media (min-width: @screen-sm-min) {
     right: percentage((@columns / @grid-columns));
-    left: 0;
+    left: auto;
   }
 }
 .make-sm-column-pull(@columns) {
   @media (min-width: @screen-sm-min) {
     left: percentage((@columns / @grid-columns));
-    right: 0;
+    right: auto;
   }
 }
 
@@ -61,13 +61,13 @@
 .make-md-column-push(@columns) {
   @media (min-width: @screen-md-min) {
     right: percentage((@columns / @grid-columns));
-    left: 0;
+    left: auto;
   }
 }
 .make-md-column-pull(@columns) {
   @media (min-width: @screen-md-min) {
     left: percentage((@columns / @grid-columns));
-    right: 0;
+    right: auto;
   }
 }
 
@@ -87,12 +87,12 @@
 .make-lg-column-push(@columns) {
   @media (min-width: @screen-lg-min) {
     right: percentage((@columns / @grid-columns));
-    left: 0;
+    left: auto;
   }
 }
 .make-lg-column-pull(@columns) {
   @media (min-width: @screen-lg-min) {
     left: percentage((@columns / @grid-columns));
-    right: 0;
+    right: auto;
   }
 }
