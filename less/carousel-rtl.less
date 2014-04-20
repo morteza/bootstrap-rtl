@@ -45,6 +45,8 @@
 
   // Set gradients for backgrounds
   &.left {
+    right: auto;
+    left: 0;
     #gradient > .horizontal(@start-color: rgba(0,0,0,.5); @end-color: rgba(0,0,0,.0001));
   }
   &.right {
@@ -56,13 +58,13 @@
   .icon-prev,
   .glyphicon-chevron-left {
     left: 50%;
-    right: none;
+    right: auto;
     margin-right: -10px;
   }
   .icon-next,
   .glyphicon-chevron-right {
     right: 50%;
-    left: none;
+    left: auto;
     margin-left: -10px;
   }
 }

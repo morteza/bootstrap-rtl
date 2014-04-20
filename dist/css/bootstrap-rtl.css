@@ -1854,6 +1854,8 @@ th {
   bottom: 0;
 }
 .carousel-control.left {
+  right: auto;
+  left: 0;
   background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.5) 0%), color-stop(rgba(0, 0, 0, 0.0001) 100%));
   background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
@@ -1872,13 +1874,13 @@ th {
 .carousel-control .icon-prev,
 .carousel-control .glyphicon-chevron-left {
   left: 50%;
-  right: none;
+  right: auto;
   margin-right: -10px;
 }
 .carousel-control .icon-next,
 .carousel-control .glyphicon-chevron-right {
   right: 50%;
-  left: none;
+  left: auto;
   margin-left: -10px;
 }
 .carousel-indicators {
