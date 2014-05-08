@@ -16,7 +16,7 @@ Or load it from CDN:
 
 ```html
 <!-- Load Bootstrap RTL theme from CDNJS -->
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.1.1/css/bootstrap-rtl.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.1.2/css/bootstrap-rtl.min.css">
 ```
 
 ## Quick start
@@ -29,8 +29,8 @@ In addition to bootstrap distribution, LESS codes for RTL theme and compiled CSS
 
 Check `examples/starter-template/index.html` for a minimal template to start with.
 
-#### Fonts
-*Glyphicons* and ~~Iranian Sans~~ are included for icons and farsi scripts, respectively.
+#### Auto Flip
+To automatically flip placements from right to left and vice versa (in bilingual pages), use `.auto-flip` alongside `.pull-right` and `.pull-left`. This is a custom class which is not available in the original Bootstrap 3.
 
 ## Building CSS and JavaScript
 
