@@ -3152,6 +3152,12 @@ th {
     padding-bottom: 30px;
   }
 }
+.pull-right.auto-flip {
+  float: left !important;
+}
+.pull-left.auto-flip {
+  float: right !important;
+}
 .has-success .help-block,
 .has-success .control-label,
 .has-success .radio,
