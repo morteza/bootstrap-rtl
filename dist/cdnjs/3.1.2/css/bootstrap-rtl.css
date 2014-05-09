@@ -2819,9 +2819,6 @@ th {
   margin-right: 2px;
   margin-left: auto;
 }
-.nav-stacked > li {
-  float: none;
-}
 .nav-stacked > li + li {
   margin-right: 0;
   margin-left: auto;
