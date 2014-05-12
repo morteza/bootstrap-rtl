@@ -8,7 +8,7 @@
   ],
   "main": [
     "./dist/css/bootstrap-rtl.css",    
-    "./dist/css/bootstrap-rtl.min.css",
+    "./dist/css/bootstrap-rtl.min.css"
   ],
   "ignore": [
     "**/.*",
