@@ -16,12 +16,12 @@ Or load it from CDN:
 
 ```html
 <!-- Load Bootstrap RTL theme from CDNJS -->
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.1.2/css/bootstrap-rtl.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.1.1-rc1/css/bootstrap-rtl.min.css">
 ```
 
 ## Quick start
 
-To get started, **[download latest version](https://github.com/morteza/bootstrap-rtl/releases/latest)**. Check `examples/` directory for more. It's just like Bootstrap 3, nothing special. You can also install it via bower:
+To get started, **[download latest production version (v3.1.1-rc1)](https://github.com/morteza/bootstrap-rtl/releases/latest)**. Check `examples/` directory for more. It's just like Bootstrap 3, nothing special. You can also install it via bower:
 
 * Run `bower install bootstrap-rtl` and latest version will be installed under *bower_components/bootstrap-rtl/* directory.
 
