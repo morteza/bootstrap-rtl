@@ -1,5 +1,7 @@
 # Bootstrap 3 RTL Theme
 
+<strong>NOTE: Check <a href="http://github.com/ratnic/bootstrap-rtl/">github.com/ratnic/bootstrap-rtl</a> for Bootstrap 3.1</strong>. *This repository is for Bootstrap 3.2*.
+
 > Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development.
 
 Bootstrap RTL provides simple yet robust right-to-left capability for Bootstrap 3, by employing new theming feature of it. Simply put its CSS after bootstrap's original CSS, to the pages designed by Bootstrap 3. It works just like an extension on top of the original Bootstrap:
