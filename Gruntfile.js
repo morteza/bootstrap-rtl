@@ -16,7 +16,7 @@ module.exports = function(grunt) {
       rtlTheme: {
         options: {
           strictMath: true,
-          cleancss: true
+          cleancss: false
         },
         files: {
           'dist/css/<%= pkg.name %>.css': 'less/bootstrap-rtl.less'
@@ -46,7 +46,7 @@ module.exports = function(grunt) {
 
 // Load uglify plugin
 grunt.loadNpmTasks('grunt-contrib-less');
-grunt.loadNpmTasks('grunt-contrib-cssmin');
+grunt.loadNpmTasks('grunt-banner');
 
 // Default Task
 grunt.registerTask('default', ['less', 'usebanner']);
