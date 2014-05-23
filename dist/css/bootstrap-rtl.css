@@ -1,3 +1,11 @@
+/*******************************************************************************
+ *              bootstrap-rtl (Version 3.2.0)
+ *      Author: Morteza Ansarinia <ansarinia@me.com> (http://github.com/morteza)
+ *  Created on: May 24,2014
+ *     Project: bootstrap-rtl
+ *   Copyright: See the file "LICENSE" for the full license governing this code.
+ *******************************************************************************/
+
 html {
   direction: rtl;
 }

@@ -17,18 +17,17 @@
     "theme"
   ],
   "devDependencies": {
-    "grunt": "~0.4.5",
-    "grunt-contrib-less": "~0.11.0",
-    "grunt-contrib-cssmin": "~0.4.0",
-    "grunt-banner": "~0.2.2"
+    "grunt": "~0.4.4",
+    "grunt-banner": "~0.2.2",
+    "grunt-contrib-less": "~0.11.0"
   },
   "engines": {
     "node": "~0.10.1"
   },
-  "repositories": [{
+  "repository": {
       "type": "git",
     "url": "https://github.com/morteza/bootstrap-rtl.git"
-  }],
+  },
   "bugs": {
       "url": "https://github.com/morteza/bootstrap-rtl/issues",
       "email": "ansarinia@me.com"
