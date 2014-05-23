@@ -13,7 +13,7 @@ module.exports = function(grunt) {
             ' *   Copyright: See the file "LICENSE" for the full license governing this code.\n' +
             ' *******************************************************************************/\n',
     less: {
-      rtlTheme: {
+      rtl: {
         options: {
           strictMath: true,
           cleancss: false
