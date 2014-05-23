@@ -1,8 +1,8 @@
 {
   "name": "bootstrap-rtl",
   "description": "Right-to-left (RTL) theme for Twitter Bootstrap 3.x.",
-  "version": "3.1.2",
-  "homepage": "https://github.com/ratnic/bootstrap-rtl",
+  "version": "3.1.1-RC1",
+  "homepage": "https://github.com/morteza/bootstrap-rtl",
   "authors": [
     "Morteza Ansarinia <ansarinia@me.com>"
   ],
