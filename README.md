@@ -1,6 +1,6 @@
 # Bootstrap 3 RTL Theme
 
-**NOTE: This repository is dedicated to Bootstrap 3.2 RTL Theme.**
+**NOTE: This repository is dedicated to Bootstrap 3.2 RTL support.**
 
 *Check <a href="http://github.com/ratnic/bootstrap-rtl/">github.com/ratnic/bootstrap-rtl</a> for Bootstrap 3.1.x RTL theme.*
 
