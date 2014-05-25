@@ -1,6 +1,10 @@
 # Bootstrap 3 RTL Theme
 
-<strong>NOTE: Check <a href="http://github.com/ratnic/bootstrap-rtl/">github.com/ratnic/bootstrap-rtl</a> for Bootstrap 3.1</strong>. *This repository is dedicated to Bootstrap 3.2 RTL Theme*.
+**NOTE: This repository is dedicated to Bootstrap 3.2 RTL Theme.**
+
+*Check <a href="http://github.com/ratnic/bootstrap-rtl/">github.com/ratnic/bootstrap-rtl</a> for Bootstrap 3.1.x RTL theme.*
+
+---
 
 > Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development.
 
