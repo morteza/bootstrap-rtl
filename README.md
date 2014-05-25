@@ -8,7 +8,6 @@
 
 > Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development.
 
-**For an experimental rtl support for Bootstrap v3.2, check [@morteza/bootstrap-rtl](https://github.com/morteza/bootstrap-rtl).**
 
 Bootstrap RTL provides simple yet robust right-to-left capability for Bootstrap 3, by employing new theming feature of it. Simply put its CSS after bootstrap's original CSS, to the pages designed by Bootstrap 3. It works just like an extension on top of the original Bootstrap:
 
