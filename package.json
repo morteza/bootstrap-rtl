@@ -1,7 +1,7 @@
 {
   "name": "bootstrap-rtl",
   "description": "Right-to-left (RTL) theme for Boostrap 3.2",
-  "version": "3.2.0",
+  "version": "3.2.0-rc1",
   "style": "dist/css/bootstrap-rtl.css",
   "homepage": "http://github.com/morteza/bootstrap-rtl",
   "author": "Morteza Ansarinia <ansarinia@me.com> (http://github.com/morteza)",
@@ -33,7 +33,7 @@
       "email": "ansarinia@me.com"
   },
   "licenses": [{
-    "type": "CC-BY-NC-SA-3.0",
+    "type": "CC-BY-NC-SA-4.0",
     "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
   }]
 }
