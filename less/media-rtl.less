@@ -1,6 +1,36 @@
 // RTL Media objects
 // --------------------------------------------------
 
+// Common styles
+// -------------------------
+
+// Clear the floats
+.media,
+.media-body {
+  overflow: hidden;
+  zoom: 1;
+}
+
+
+// Media image alignment
+// -------------------------
+
+.media {
+  > .pull-left {
+    margin-right: @media-pull-margin;
+    &.flip {
+      margin-right: 0;
+      margin-left: @media-pull-margin;
+    }
+  }
+  > .pull-right {
+      margin-left: @media-pull-margin;
+    &.flip {
+      margin-left: 0;
+      margin-right: @media-pull-margin;
+    }
+  }
+}
 
 // Media list variation
 // -------------------------
@@ -8,6 +38,7 @@
 // Undo default ul/ol styles
 .media-list {
   padding-right: 0;
-  padding-left: none;
+  padding-left: auto;
   list-style: none;
 }
+

@@ -1210,9 +1210,28 @@ th {
 .progress-bar {
   float: right;
 }
+.media,
+.media-body {
+  overflow: hidden;
+  zoom: 1;
+}
+.media > .pull-left {
+  margin-right: 10px;
+}
+.media > .pull-left.flip {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.media > .pull-right {
+  margin-left: 10px;
+}
+.media > .pull-right.flip {
+  margin-left: 0;
+  margin-right: 10px;
+}
 .media-list {
   padding-right: 0;
-  padding-left: none;
+  padding-left: auto;
   list-style: none;
 }
 .list-group {
