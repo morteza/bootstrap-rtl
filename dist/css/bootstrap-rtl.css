@@ -1,7 +1,7 @@
 /*******************************************************************************
  *              bootstrap-rtl (Version 3.2.0)
  *      Author: Morteza Ansarinia <ansarinia@me.com> (http://github.com/morteza)
- *  Created on: May 25,2014
+ *  Created on: May 28,2014
  *     Project: bootstrap-rtl
  *   Copyright: See the file "LICENSE.md" for the full license governing this code.
  *******************************************************************************/
@@ -855,7 +855,7 @@ th {
   .table-responsive > .table-bordered > tbody > tr > td:first-child,
   .table-responsive > .table-bordered > tfoot > tr > td:first-child {
     border-right: 0;
-    botder-left: auto;
+    border-left: auto;
   }
   .table-responsive > .table-bordered > thead > tr > th:last-child,
   .table-responsive > .table-bordered > tbody > tr > th:last-child,
