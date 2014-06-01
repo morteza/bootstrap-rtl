@@ -16,8 +16,12 @@ module.exports = function(grunt) {
       rtl: {
         options: {
           strictMath: true,
-          cleancss: false
-        },
+          cleancss: false,
+          sourceMap: true,
+          outputSourceFiles: true,
+          sourceMapURL: '<%= pkg.name %>.css.map',
+          sourceMapFilename: 'dist/css/<%= pkg.name %>.css.map' 
+      },
         files: {
           'dist/css/<%= pkg.name %>.css': 'less/bootstrap-rtl.less'
         }
