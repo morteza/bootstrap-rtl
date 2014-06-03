@@ -7,8 +7,7 @@
     "Morteza Ansarinia <ansarinia@me.com>"
   ],
   "main": [
-    "dist/css/bootstrap-rtl.css",    
-    "dist/css/bootstrap-rtl.min.css"
+    "dist/css/bootstrap-rtl.css"
   ],
   "ignore": [
     "**/.*",
