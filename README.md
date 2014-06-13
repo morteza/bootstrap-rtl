@@ -1,9 +1,5 @@
 # Bootstrap 3 RTL Theme
 
-**NOTE: This repository is dedicated to Bootstrap 3.2 RTL support.**
-
-*Check <a href="http://github.com/ratnic/bootstrap-rtl/">github.com/ratnic/bootstrap-rtl</a> for Bootstrap 3.1.x RTL theme.*
-
 ---
 
 > Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development.
@@ -19,11 +15,11 @@ Bootstrap RTL provides simple yet robust right-to-left capability for Bootstrap 
 <link rel="stylesheet" href="bootstrap-rtl.css">
 ```
 
-Or load it from CDN (Not available yet, Check releases instead):
+Or load it from CDN:
 
 ```html
 <!-- Load Bootstrap RTL theme from CDNJS -->
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.2.0/css/bootstrap-rtl.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.1.1/css/bootstrap-rtl.min.css">
 ```
 
 ## Quick start
