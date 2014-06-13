@@ -1,7 +1,7 @@
 /*******************************************************************************
  *              bootstrap-rtl (Version 3.2.0-rc1)
  *      Author: Morteza Ansarinia <ansarinia@me.com> (http://github.com/morteza)
- *  Created on: June 01,2014
+ *  Created on: June 13,2014
  *     Project: bootstrap-rtl
  *   Copyright: See the file "LICENSE.md" for the full license governing this code.
  *******************************************************************************/
@@ -1146,6 +1146,13 @@ th {
   .navbar-nav.navbar-right:last-child {
     margin-left: -15px;
     margin-right: auto;
+  }
+  .navbar-nav.navbar-right.flip {
+    float: left !important;
+  }
+  .navbar-nav.navbar-right .dropdown-menu {
+    left: 0;
+    right: auto;
   }
 }
 @media (min-width: 768px) {
