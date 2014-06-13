@@ -84,9 +84,20 @@
       float: right;
     }
 
-    &.navbar-right:last-child {
-      margin-left: -@navbar-padding-horizontal;
-      margin-right: auto;
+    &.navbar-right {
+      &:last-child {
+        margin-left: -@navbar-padding-horizontal;
+        margin-right: auto;
+      }
+
+      &.flip {
+        float: left !important;
+      }
+
+      .dropdown-menu {
+        left: 0;
+        right: auto;
+      }
     }
   }
 }
