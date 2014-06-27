@@ -1,3 +1,6 @@
+//
+// RTL Forms
+// --------------------------------------------------
 
 
 .radio,
@@ -59,14 +62,11 @@
   // Kick in the inline
   @media (min-width: @screen-sm-min) {
 
-    // Remove default margin on radios/checkboxes that were used for stacking, and
-    // then undo the floating of radios and checkboxes to match (which also avoids
-    // a bug in WebKit: https://github.com/twbs/bootstrap/issues/1969).
-    .radio,
-    .checkbox {
-      padding-right: 0;
-      padding-left: auto;
-    }
+      label {
+        padding-right: 0;
+        padding-left: auto;
+      }
+
     .radio input[type="radio"],
     .checkbox input[type="checkbox"] {
       margin-right: 0;
