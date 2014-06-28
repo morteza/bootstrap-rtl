@@ -1,7 +1,7 @@
 /*******************************************************************************
- *              bootstrap-rtl (Version 3.2.0-rc1)
+ *              bootstrap-rtl (Version 3.2.0-rc2)
  *      Author: Morteza Ansarinia <ansarinia@me.com> (http://github.com/morteza)
- *  Created on: June 13,2014
+ *  Created on: June 28,2014
  *     Project: bootstrap-rtl
  *   Copyright: See the file "LICENSE.md" for the full license governing this code.
  *******************************************************************************/
@@ -899,8 +899,7 @@ th {
   right: auto;
 }
 @media (min-width: 768px) {
-  .form-inline .radio,
-  .form-inline .checkbox {
+  .form-inline label {
     padding-right: 0;
     padding-left: auto;
   }
@@ -947,16 +946,6 @@ th {
 .btn-group > .btn,
 .btn-group-vertical > .btn {
   float: right;
-}
-.btn-group > .btn:hover,
-.btn-group-vertical > .btn:hover,
-.btn-group > .btn:focus,
-.btn-group-vertical > .btn:focus,
-.btn-group > .btn:active,
-.btn-group-vertical > .btn:active,
-.btn-group > .btn.active,
-.btn-group-vertical > .btn.active {
-  z-index: 2;
 }
 .btn-group .btn + .btn,
 .btn-group .btn + .btn-group,
@@ -1205,22 +1194,18 @@ th {
   margin-left: 0px;
   margin-right: 3px;
 }
-.alert-dismissable {
+.alert-dismissable,
+.alert-dismissible {
   padding-left: 35px;
   padding-right: 15px;
 }
-.alert-dismissable .close {
-  top: -2px;
+.alert-dismissable .close,
+.alert-dismissible .close {
   right: 0;
   left: 21;
 }
 .progress-bar {
   float: right;
-}
-.media,
-.media-body {
-  overflow: hidden;
-  zoom: 1;
 }
 .media > .pull-left {
   margin-right: 10px;
@@ -1243,14 +1228,14 @@ th {
 }
 .list-group {
   padding-right: 0;
-  padding-left: none;
+  padding-left: auto;
 }
 .list-group-item > .badge {
   float: left;
 }
 .list-group-item > .badge + .badge {
   margin-ight: 5px;
-  margin-left: 0;
+  margin-left: auto;
 }
 .panel > .table:first-child > thead:first-child > tr:first-child td:first-child,
 .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:first-child,
@@ -1340,16 +1325,16 @@ th {
   text-align: left;
 }
 .modal-footer .btn + .btn {
-  margin-left: 0;
+  margin-left: auto;
   margin-right: 5px;
 }
 .modal-footer .btn-group .btn + .btn {
   margin-right: -1px;
-  margin-left: 0;
+  margin-left: auto;
 }
 .modal-footer .btn-block + .btn-block {
   margin-right: 0;
-  margin-left: none;
+  margin-left: auto;
 }
 .popover {
   right: 0;
