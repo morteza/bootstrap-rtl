@@ -1,7 +1,7 @@
 /*******************************************************************************
  *              bootstrap-rtl (Version 3.2.0-rc2)
  *      Author: Morteza Ansarinia <ansarinia@me.com> (http://github.com/morteza)
- *  Created on: June 28,2014
+ *  Created on: July 10,2014
  *     Project: bootstrap-rtl
  *   Copyright: See the file "LICENSE.md" for the full license governing this code.
  *******************************************************************************/
@@ -1352,12 +1352,12 @@ th {
   margin-left: 0;
 }
 .carousel-inner > .item {
-  -webkit-transition: 0.6s ease-in-out right;
-  -o-transition: 0.6s ease-in-out right;
-  transition: 0.6s ease-in-out right;
+  -webkit-transition: 0.6s ease-in-out left;
+  -o-transition: 0.6s ease-in-out left;
+  transition: 0.6s ease-in-out left;
 }
 .carousel-inner > .active {
-  right: 0;
+  left: 0;
 }
 .carousel-inner > .next {
   right: 100%;
