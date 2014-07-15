@@ -1,7 +1,7 @@
 /*******************************************************************************
  *              bootstrap-rtl (Version 3.2.0-rc2)
  *      Author: Morteza Ansarinia <ansarinia@me.com> (http://github.com/morteza)
- *  Created on: July 10,2014
+ *  Created on: July 15,2014
  *     Project: bootstrap-rtl
  *   Copyright: See the file "LICENSE.md" for the full license governing this code.
  *******************************************************************************/
@@ -982,6 +982,9 @@ th {
 }
 .btn-group > .btn-group {
   float: right;
+}
+.btn-group.btn-group-justified > .btn-group {
+  float: none;
 }
 .btn-group > .btn-group:not(:first-child):not(:last-child) > .btn {
   border-radius: 0;
