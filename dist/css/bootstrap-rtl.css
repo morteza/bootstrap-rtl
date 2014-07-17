@@ -1,7 +1,7 @@
 /*******************************************************************************
  *              bootstrap-rtl (Version 3.2.0-rc2)
  *      Author: Morteza Ansarinia <ansarinia@me.com> (http://github.com/morteza)
- *  Created on: July 16,2014
+ *  Created on: July 17,2014
  *     Project: bootstrap-rtl
  *   Copyright: See the file "LICENSE.md" for the full license governing this code.
  *******************************************************************************/
@@ -876,9 +876,8 @@ th {
 .radio-inline input[type="radio"],
 .checkbox input[type="checkbox"],
 .checkbox-inline input[type="checkbox"] {
-  float: right;
-  margin-right: 20px;
-  margin-left: 0;
+  margin-right: -20px;
+  margin-left: auto;
 }
 .radio-inline,
 .checkbox-inline {
