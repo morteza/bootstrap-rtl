@@ -1353,13 +1353,23 @@ th {
 }
 .popover.top > .arrow {
   right: 50%;
-  left: none;
+  left: auto;
   margin-right: -11px;
-  margin-left: 0;
+  margin-left: auto;
 }
 .popover.top > .arrow:after {
   margin-right: -10px;
-  margin-left: 0;
+  margin-left: auto;
+}
+.popover.bottom > .arrow {
+  right: 50%;
+  left: auto;
+  margin-right: -11px;
+  margin-left: auto;
+}
+.popover.bottom > .arrow:after {
+  margin-right: -10px;
+  margin-left: auto;
 }
 .carousel-inner > .item {
   -webkit-transition: 0.6s ease-in-out left;

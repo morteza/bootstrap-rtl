@@ -5,18 +5,29 @@
 
 .popover {
   left: auto;
-  text-align: right; // Reset given new insertion method
+  text-align: right;
 }
 
 .popover {
   &.top > .arrow {
     right: 50%;
-    left: none;
+    left: auto;
     margin-right: -@popover-arrow-outer-width;
-    margin-left: 0;
+    margin-left: auto;
     &:after {
       margin-right: -@popover-arrow-width;
-      margin-left: 0;
+      margin-left: auto;
     }
   }
+  &.bottom > .arrow {
+    right: 50%;
+    left: auto;
+    margin-right: -@popover-arrow-outer-width;
+    margin-left: auto;
+    &:after {
+      margin-right: -@popover-arrow-width;
+      margin-left: auto;
+    }
+  }
+
 }
