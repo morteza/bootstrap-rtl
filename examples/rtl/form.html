@@ -93,7 +93,7 @@
         </div>
         <div class="form-group">
           <div class="col-sm-offset-2 col-sm-10">
-            <button type="submit" class="btn btn-default">Sign in</button>
+            <button type="button" class="btn btn-default" data-toggle="popover" data-placement="left" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Sign in</button>
           </div>
         </div>
       </form>
@@ -105,6 +105,8 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="../../bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="../../bootstrap/docs/assets/js/docs.min.js"></script>
+    <script type="text/javascript">
+      $('button').popover();
+    </script>
   </body>
 </html>
