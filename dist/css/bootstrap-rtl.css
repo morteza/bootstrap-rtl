@@ -1,7 +1,7 @@
 /*******************************************************************************
  *              bootstrap-rtl (Version 3.2.0-rc3)
  *      Author: Morteza Ansarinia <ansarinia@me.com> (http://github.com/morteza)
- *  Created on: July 23,2014
+ *  Created on: July 24,2014
  *     Project: bootstrap-rtl
  *   Copyright: See the file "LICENSE.md" for the full license governing this code.
  *******************************************************************************/
@@ -927,20 +927,28 @@ th {
   float: left;
   text-align: right;
 }
-.dropdown-menu.pull-left {
+.dropdown-menu.pull-right {
   left: 0;
+  right: auto;
   float: right;
+}
+.dropdown-menu-right {
+  left: auto;
+  right: 0;
+}
+.dropdown-menu-left {
+  left: 0;
   right: auto;
 }
-.pull-left > .dropdown-menu {
-  left: 0;
-  float: right;
-  right: auto;
-}
-.navbar-nav.pull-left > li > .dropdown-menu,
-.navbar-nav > li > .dropdown-menu.pull-left {
-  right: auto;
-  left: 0;
+@media (min-width: 768px) {
+  .navbar-right .dropdown-menu {
+    left: auto;
+    right: 0;
+  }
+  .navbar-right .dropdown-menu-left {
+    left: 0;
+    right: auto;
+  }
 }
 .btn-group > .btn,
 .btn-group-vertical > .btn {
