@@ -30,8 +30,6 @@ To get started, **[download latest release](https://github.com/morteza/bootstrap
 
 In addition to bootstrap distribution, LESS codes for RTL theme and compiled CSS (`bootstrap-rtl.css`) are provided, as well as minified CSS (`bootstrap-rtl.min.css`). Check `dist/` directory for all the codes you need.
 
-Check `examples/starter-template/index.html` for a minimal template to start with.
-
 #### Auto Flip (`.flip`)
 To automatically flip placements from right to left and vice versa (in bilingual pages), use `.flip` alongside `.pull-right` and `.pull-left`. This is a custom class which is not available in the original Bootstrap 3.
 
