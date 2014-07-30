@@ -891,7 +891,7 @@ th {
 }
 .has-feedback .form-control {
   padding-left: 42.5px;
-  padding-right: auto;
+  padding-right: 10px;
 }
 .form-control-feedback {
   left: 0;
