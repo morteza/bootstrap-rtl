@@ -1,7 +1,7 @@
 /*******************************************************************************
  *              bootstrap-rtl (Version 3.2.0-rc3)
  *      Author: Morteza Ansarinia <ansarinia@me.com> (http://github.com/morteza)
- *  Created on: July 24,2014
+ *  Created on: July 30,2014
  *     Project: bootstrap-rtl
  *   Copyright: See the file "LICENSE.md" for the full license governing this code.
  *******************************************************************************/
@@ -891,7 +891,7 @@ th {
 }
 .has-feedback .form-control {
   padding-left: 42.5px;
-  padding-right: auto;
+  padding-right: 12px;
 }
 .form-control-feedback {
   left: 0;
