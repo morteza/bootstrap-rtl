@@ -1,7 +1,7 @@
 /*******************************************************************************
  *              bootstrap-rtl (Version 3.2.0-rc5)
  *      Author: Morteza Ansarinia <ansarinia@me.com> (http://github.com/morteza)
- *  Created on: August 28,2014
+ *  Created on: August 29,2014
  *     Project: bootstrap-rtl
  *   Copyright: See the file "LICENSE.md" for the full license governing this code.
  *******************************************************************************/
@@ -1086,7 +1086,7 @@ th {
   border-radius: 4px 4px 0 0;
 }
 .nav-pills > li {
-  float: right;
+  float: none;
 }
 .nav-pills > li > a {
   border-radius: 4px;
