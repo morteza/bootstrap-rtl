@@ -3,7 +3,7 @@
 // Used only by Bootstrap to generate the correct number of grid classes given
 // any value of `@grid-columns`.
 
-.make-grid-columns() {
+.make-rtl-grid-columns() {
   // Common styles for all sizes of grid columns, widths 1-12
   .col(@index) when (@index = 1) { // initial
     @item: ~".col-xs-@{index}, .col-sm-@{index}, .col-md-@{index}, .col-lg-@{index}";
@@ -26,7 +26,7 @@
   .col(1); // kickstart it
 }
 
-.float-grid-columns(@class) {
+.float-rtl-grid-columns(@class) {
   .col(@index) when (@index = 1) { // initial
     @item: ~".col-@{class}-@{index}";
     .col((@index + 1), @item);
@@ -43,36 +43,36 @@
   .col(1); // kickstart it
 }
 
-.calc-grid-column(@index, @class, @type) when (@type = width) and (@index > 0) {
+.calc-rtl-grid-column(@index, @class, @type) when (@type = width) and (@index > 0) {
   .col-@{class}-@{index} {
     width: percentage((@index / @grid-columns));
   }
 }
-.calc-grid-column(@index, @class, @type) when (@type = push) and (@index > 0) {
+.calc-rtl-grid-column(@index, @class, @type) when (@type = push) and (@index > 0) {
   .col-@{class}-push-@{index} {
     right: percentage((@index / @grid-columns));
     left: 0;
   }
 }
-.calc-grid-column(@index, @class, @type) when (@type = push) and (@index = 0) {
+.calc-rtl-grid-column(@index, @class, @type) when (@type = push) and (@index = 0) {
   .col-@{class}-push-0 {
     right: auto;
     left: 0;
   }
 }
-.calc-grid-column(@index, @class, @type) when (@type = pull) and (@index > 0) {
+.calc-rtl-grid-column(@index, @class, @type) when (@type = pull) and (@index > 0) {
   .col-@{class}-pull-@{index} {
     left: percentage((@index / @grid-columns));
     right: auto;
   }
 }
-.calc-grid-column(@index, @class, @type) when (@type = pull) and (@index = 0) {
+.calc-rtl-grid-column(@index, @class, @type) when (@type = pull) and (@index = 0) {
   .col-@{class}-pull-0 {
     left: auto;
     right: auto;
   }
 }
-.calc-grid-column(@index, @class, @type) when (@type = offset) {
+.calc-rtl-grid-column(@index, @class, @type) when (@type = offset) {
   .col-@{class}-offset-@{index} {
     margin-right: percentage((@index / @grid-columns));
     margin-left: 0;
@@ -80,17 +80,17 @@
 }
 
 // Basic looping in LESS
-.loop-grid-columns(@index, @class, @type) when (@index >= 0) {
-  .calc-grid-column(@index, @class, @type);
+.loop-rtl-grid-columns(@index, @class, @type) when (@index >= 0) {
+  .calc-rtl-grid-column(@index, @class, @type);
   // next iteration
-  .loop-grid-columns((@index - 1), @class, @type);
+  .loop-rtl-grid-columns((@index - 1), @class, @type);
 }
 
 // Create grid for specific class
-.make-grid(@class) {
-  .float-grid-columns(@class);
-  .loop-grid-columns(@grid-columns, @class, width);
-  .loop-grid-columns(@grid-columns, @class, pull);
-  .loop-grid-columns(@grid-columns, @class, push);
-  .loop-grid-columns(@grid-columns, @class, offset);
+.make-rtl-grid(@class) {
+  .float-rtl-grid-columns(@class);
+  .loop-rtl-grid-columns(@grid-columns, @class, width);
+  .loop-rtl-grid-columns(@grid-columns, @class, pull);
+  .loop-rtl-grid-columns(@grid-columns, @class, push);
+  .loop-rtl-grid-columns(@grid-columns, @class, offset);
 }
