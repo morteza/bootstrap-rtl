@@ -10,7 +10,7 @@ module.exports = function(grunt) {
             ' *      Author: <%= pkg.author %>\n' +
             ' *  Created on: <%= grunt.template.today("mmmm dd,yyyy") %>\n' +
             ' *     Project: <%= pkg.name %>\n' +
-            ' *   Copyright: See the file "LICENSE.md" for the full license governing this code.\n' +
+            ' *   Copyright: No license.\n' +
             ' *******************************************************************************/\n',
     less: {
       rtl: {

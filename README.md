@@ -66,14 +66,8 @@ If you want a feature or a bug fixed, [report it via project's issues tracker](h
 + [http://github.com/morteza](http://github.com/morteza)
 
 
-## Copyright and license
+## License
 
+I have no idea what licenses are for exactly. So there is no license control over this bootstrap-rtl project. However bootstrap itself is licensed by Twitter, Inc. under [the MIT License (MIT)](LICENSE.bootstrap).
 
-#### Bootstrap RTL
-This work is licensed under the Creative Commons **Attribution-NonCommercial-ShareAlike 4.0** International License. To view a copy of this license, visit [http://creativecommons.org/licenses/by-nc-sa/4.0/](http://creativecommons.org/licenses/by-nc-sa/4.0/).
-
-See the file [LICENSE.md](LICENSE.md) for the full license governing this project.
-
-#### Bootstrap
-&copy; 2011-2014 Twitter, Inc. Licensed under [the MIT License (MIT)](LICENSE.bootstrap).
 
