@@ -1086,7 +1086,7 @@ th {
   border-radius: 4px 4px 0 0;
 }
 .nav-pills > li {
-  float: none;
+  float: right;
 }
 .nav-pills > li > a {
   border-radius: 4px;
