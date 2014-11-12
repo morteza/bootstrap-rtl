@@ -17,7 +17,7 @@ Bootstrap RTL provides simple yet robust right-to-left capability for Bootstrap 
 <link rel="stylesheet" href="bootstrap-rtl.css">
 ```
 
-Or load it from CDN:
+Or load it from CDN (3.2.0-rc2):
 
 ```html
 <!-- Load Bootstrap RTL theme from CDNJS -->
