@@ -2,7 +2,7 @@
 
 ---
 
-***Note: Hopefully, they will add rtl support in the next major release of bootstrap, so this project will be absolete. However, it's going to be updated for the next 3.x releases.***
+***Note: Hopefully, they will add rtl support to the next major release of bootstrap, so this project will be absolete. However, it's going to be updated for the next 3.x releases.***
 
 > Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development.
 
