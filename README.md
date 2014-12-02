@@ -72,4 +72,7 @@ If you want a feature or a bug fixed, [report it via project's issues tracker](h
 
 I have no idea what licenses are for exactly. So there is no license control over this bootstrap-rtl project. However bootstrap itself is licensed by Twitter, Inc. under [the MIT License (MIT)](LICENSE.bootstrap).
 
+If it really matters to you to have a license to avoid litigations, this is an unlicensed public domain software. Read [UNLICENSE file](UNLICENSE) for more.
+
+
 
