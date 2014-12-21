@@ -1,7 +1,7 @@
 {
   "name": "bootstrap-rtl",
-  "description": "Right-to-left (RTL) theme for Boostrap 3.2",
-  "version": "3.2.0-rc7",
+  "description": "Right-to-left (RTL) theme for Boostrap 3.x",
+  "version": "3.3.1-rc1",
   "style": "dist/css/bootstrap-rtl.css",
   "homepage": "http://github.com/morteza/bootstrap-rtl",
   "author": "Morteza Ansarinia <ansarinia@me.com> (http://github.com/morteza)",
@@ -17,9 +17,9 @@
     "theme"
   ],
   "devDependencies": {
-    "grunt": "~0.4.4",
-    "grunt-banner": "~0.2.2",
-    "grunt-contrib-less": "~0.11.0"
+    "grunt": "~0.4.5",
+    "grunt-banner": "~0.2.3",
+    "grunt-contrib-less": "~0.12.0"
   },
   "engines": {
     "node": "~0.10.1"
@@ -33,6 +33,6 @@
       "email": "ansarinia@me.com"
   },
   "licenses": [{
-    "type": "No License"
+    "type": "Unlicense"
   }]
 }

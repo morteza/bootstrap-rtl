@@ -1,9 +1,9 @@
 /*******************************************************************************
- *              bootstrap-rtl (Version 3.2.0-rc7)
+ *              bootstrap-rtl (version 3.3.1-rc1)
  *      Author: Morteza Ansarinia <ansarinia@me.com> (http://github.com/morteza)
- *  Created on: November 11,2014
+ *  Created on: December 21,2014
  *     Project: bootstrap-rtl
- *   Copyright: No license.
+ *   Copyright: Unlicense.
  *******************************************************************************/
 
 html {
@@ -841,6 +841,9 @@ blockquote.pull-left {
     margin-left: 0;
   }
 }
+caption {
+  text-align: right;
+}
 th {
   text-align: right;
 }
@@ -1213,6 +1216,13 @@ th {
   margin-left: 0px;
   margin-right: 3px;
 }
+.list-group-item > .badge {
+  float: left;
+}
+.list-group-item > .badge + .badge {
+  margin-left: 5px;
+  margin-right: auto;
+}
 .alert-dismissable,
 .alert-dismissible {
   padding-left: 35px;
@@ -1240,6 +1250,16 @@ th {
   margin-left: 0;
   margin-right: 10px;
 }
+.media-right,
+.media > .pull-right {
+  padding-right: 10px;
+  padding-left: initial;
+}
+.media-left,
+.media > .pull-left {
+  padding-left: 10px;
+  padding-right: initial;
+}
 .media-list {
   padding-right: 0;
   padding-left: initial;
@@ -1248,13 +1268,6 @@ th {
 .list-group {
   padding-right: 0;
   padding-left: initial;
-}
-.list-group-item > .badge {
-  float: left;
-}
-.list-group-item > .badge + .badge {
-  margin-right: 5px;
-  margin-left: auto;
 }
 .panel > .table:first-child > thead:first-child > tr:first-child td:first-child,
 .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:first-child,

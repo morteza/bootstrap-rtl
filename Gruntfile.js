@@ -6,11 +6,11 @@ module.exports = function(grunt) {
     // Read package.json Metadata.
     pkg: grunt.file.readJSON('package.json'),
     banner: '/*******************************************************************************\n' +
-            ' *              <%= pkg.name %> (Version <%= pkg.version %>)\n' +
+            ' *              <%= pkg.name %> (version <%= pkg.version %>)\n' +
             ' *      Author: <%= pkg.author %>\n' +
             ' *  Created on: <%= grunt.template.today("mmmm dd,yyyy") %>\n' +
             ' *     Project: <%= pkg.name %>\n' +
-            ' *   Copyright: No license.\n' +
+            ' *   Copyright: Unlicense.\n' +
             ' *******************************************************************************/\n',
     less: {
       rtl: {
