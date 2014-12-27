@@ -1,7 +1,7 @@
 /*******************************************************************************
  *              bootstrap-rtl (version 3.3.1-rc1)
  *      Author: Morteza Ansarinia <ansarinia@me.com> (http://github.com/morteza)
- *  Created on: December 21,2014
+ *  Created on: December 27,2014
  *     Project: bootstrap-rtl
  *   Copyright: Unlicense.
  *******************************************************************************/
@@ -1154,14 +1154,21 @@ th {
   .navbar-nav > li {
     float: right;
   }
-  .navbar-nav.navbar-right:last-child {
+}
+@media (min-width: 768px) {
+  .navbar-left.flip {
+    float: right !important;
+  }
+  .navbar-right:last-child {
     margin-left: -15px;
     margin-right: auto;
   }
-  .navbar-nav.navbar-right.flip {
+  .navbar-right.flip {
     float: left !important;
+    margin-left: -15px;
+    margin-right: auto;
   }
-  .navbar-nav.navbar-right .dropdown-menu {
+  .navbar-right .dropdown-menu {
     left: 0;
     right: auto;
   }

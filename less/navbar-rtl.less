@@ -84,20 +84,32 @@
       float: right;
     }
 
-    &.navbar-right {
-      &:last-child {
-        margin-left: -@navbar-padding-horizontal;
-        margin-right: auto;
-      }
+  }
+}
 
-      &.flip {
-        float: left !important;
-      }
+@media (min-width: @grid-float-breakpoint) {
+  .navbar-left {
 
-      .dropdown-menu {
-        left: 0;
-        right: auto;
-      }
+    &.flip {
+      float: right !important;
+    }
+  }
+
+  .navbar-right {
+    &:last-child {
+      margin-left: -@navbar-padding-horizontal;
+      margin-right: auto;
+    }
+
+    &.flip {
+      float: left !important;
+      margin-left: -@navbar-padding-horizontal;
+      margin-right: auto;
+    }
+
+    .dropdown-menu {
+      left: 0;
+      right: auto;
     }
   }
 }
