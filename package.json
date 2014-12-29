@@ -1,10 +1,10 @@
 {
   "name": "bootstrap-rtl",
   "description": "Right-to-left (RTL) theme for Boostrap 3.x",
-  "version": "3.3.1-rc1",
+  "version": "3.3.1-rc2",
   "style": "dist/css/bootstrap-rtl.css",
   "homepage": "http://github.com/morteza/bootstrap-rtl",
-  "author": "Morteza Ansarinia <ansarinia@me.com> (http://github.com/morteza)",
+  "author": "Morteza Ansarinia (http://github.com/morteza)",
   "keywords": [
     "twitter",
     "bootstrap",
@@ -29,8 +29,7 @@
     "url": "https://github.com/morteza/bootstrap-rtl.git"
   },
   "bugs": {
-      "url": "https://github.com/morteza/bootstrap-rtl/issues",
-      "email": "ansarinia@me.com"
+      "url": "https://github.com/morteza/bootstrap-rtl/issues"
   },
   "licenses": [{
     "type": "Unlicense"
