@@ -1,7 +1,7 @@
 /*******************************************************************************
  *              bootstrap-rtl (version 3.3.1-rc2)
  *      Author: Morteza Ansarinia (http://github.com/morteza)
- *  Created on: December 30,2014
+ *  Created on: January 04,2015
  *     Project: bootstrap-rtl
  *   Copyright: Unlicensed.
  *******************************************************************************/
@@ -1043,7 +1043,8 @@ th {
   border-top-left-radius: 0;
 }
 .input-group-addon:first-child {
-  border-right: 1px solid #cccccc;
+  border-right-width: 1px;
+  border-right-style: solid;
   border-left: 0px;
 }
 .input-group .form-control:last-child,
@@ -1059,7 +1060,8 @@ th {
   border-top-right-radius: 0;
 }
 .input-group-addon:last-child {
-  border-left: 1px solid #cccccc;
+  border-left-width: 1px;
+  border-left-style: solid;
   border-right: 0px;
 }
 .input-group-btn > .btn + .btn {
