@@ -18,8 +18,8 @@
     "docs",
     "js/tests"
   ],
-  "license": "Unlicensed Public Domain",
   "dependencies": {
-    "jquery": ">= 1.9.1"
-  }
+    "bootstrap": "3.3.1"
+  },
+  "license": "Unlicensed Public Domain"
 }
