@@ -21,9 +21,22 @@ module.exports = function(grunt) {
           outputSourceFiles: true,
           sourceMapURL: '<%= pkg.name %>.css.map',
           sourceMapFilename: 'dist/css/<%= pkg.name %>.css.map' 
-      },
+        },
         files: {
           'dist/css/<%= pkg.name %>.css': 'less/bootstrap-rtl.less'
+        }
+      },
+      flipped: {
+        options: {
+          strictMath: true,
+          cleancss: false,
+          sourceMap: true,
+          outputSourceFiles: true,
+          sourceMapURL: '<%= pkg.name %>-flipped.css.map',
+          sourceMapFilename: 'dist/css/bootstrap-flipped.css.map' 
+        },
+        files: {
+          'dist/css/bootstrap-flipped.css': 'less/bootstrap-flipped.less'
         }
       },
       minify: {
@@ -32,6 +45,7 @@ module.exports = function(grunt) {
         },
         files: {
           'dist/css/<%= pkg.name %>.min.css': 'dist/css/<%= pkg.name %>.css',
+          'dist/css/bootstrap-flipped.min.css': 'dist/css/bootstrap-flipped.css',
         }
       }
     },
@@ -44,7 +58,10 @@ module.exports = function(grunt) {
 
         },
         files: {
-          src: ['dist/css/<%= pkg.name %>.css', 'dist/css/<%= pkg.name %>.min.css']
+          src: ['dist/css/<%= pkg.name %>.css', 
+                'dist/css/bootstrap-flipped.css', 
+                'dist/css/<%= pkg.name %>.min.css',
+                'dist/css/bootstrap-flipped.min.css']
         }        
     }
   });
