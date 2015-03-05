@@ -1,7 +1,7 @@
 /*******************************************************************************
  *              bootstrap-rtl (version 3.3.2-rc1)
  *      Author: Morteza Ansarinia (http://github.com/morteza)
- *  Created on: February 10,2015
+ *  Created on: March 05,2015
  *     Project: bootstrap-rtl
  *   Copyright: Unlicensed Public Domain
  *******************************************************************************/
@@ -11,6 +11,12 @@ html {
 }
 body {
   direction: rtl;
+}
+.flip.text-left {
+  text-align: right;
+}
+.flip.text-right {
+  text-align: left;
 }
 .list-unstyled {
   padding-right: 0;
