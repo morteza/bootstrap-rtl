@@ -1,7 +1,7 @@
 /*******************************************************************************
  *              bootstrap-rtl (version 3.3.2-rc1)
  *      Author: Morteza Ansarinia (http://github.com/morteza)
- *  Created on: February 10,2015
+ *  Created on: March 18,2015
  *     Project: bootstrap-rtl
  *   Copyright: Unlicensed Public Domain
  *******************************************************************************/
@@ -11,6 +11,12 @@ html {
 }
 body {
   direction: rtl;
+}
+.flip.text-left {
+  text-align: right;
+}
+.flip.text-right {
+  text-align: left;
 }
 .list-unstyled {
   padding-right: 0;
@@ -986,8 +992,6 @@ th {
 .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0;
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
 }
@@ -995,8 +999,6 @@ th {
 .btn-group > .dropdown-toggle:not(:first-child) {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 0;
-  border-top-right-radius: 0;
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
 }
@@ -1014,16 +1016,12 @@ th {
 .btn-group > .btn-group:first-child > .dropdown-toggle {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0;
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
 }
 .btn-group > .btn-group:last-child > .btn:first-child {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 0;
-  border-top-right-radius: 0;
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
 }
@@ -1047,12 +1045,8 @@ th {
 .input-group-btn:first-child > .dropdown-toggle,
 .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle),
 .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
-  border-bottom-right-radius: 4px;
-  border-top-right-radius: 4px;
   border-bottom-left-radius: 4px;
   border-top-left-radius: 4px;
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0;
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
 }
@@ -1067,12 +1061,8 @@ th {
 .input-group-btn:last-child > .dropdown-toggle,
 .input-group-btn:first-child > .btn:not(:first-child),
 .input-group-btn:first-child > .btn-group:not(:first-child) > .btn {
-  border-bottom-left-radius: 4px;
-  border-top-left-radius: 4px;
   border-bottom-right-radius: 4px;
   border-top-right-radius: 4px;
-  border-bottom-right-radius: 0;
-  border-top-right-radius: 0;
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
 }
@@ -1213,24 +1203,16 @@ th {
 .pagination > li:first-child > a,
 .pagination > li:first-child > span {
   margin-left: 0;
-  border-bottom-right-radius: 4px;
-  border-top-right-radius: 4px;
   border-bottom-left-radius: 4px;
   border-top-left-radius: 4px;
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0;
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
 }
 .pagination > li:last-child > a,
 .pagination > li:last-child > span {
   margin-right: -1px;
-  border-bottom-left-radius: 4px;
-  border-top-left-radius: 4px;
   border-bottom-right-radius: 4px;
   border-top-right-radius: 4px;
-  border-bottom-right-radius: 0;
-  border-top-right-radius: 0;
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
 }
@@ -1512,18 +1494,18 @@ th {
 }
 @media (min-width: 768px) {
   .navbar-left {
-    float: left !important;
+    float: right !important;
   }
   .navbar-left.flip {
-    float: left !important;
+    float: right !important;
   }
   .navbar-right {
-    float: right !important;
+    float: left !important;
     margin-left: -15px;
     margin-right: initial;
   }
   .navbar-right.flip {
-    float: right !important;
+    float: left !important;
   }
   .navbar-right ~ .navbar-right {
     margin-left: 0;

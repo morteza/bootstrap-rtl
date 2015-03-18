@@ -8,7 +8,7 @@
 // Core variables and mixins imported from the latest original bootstrap
 @import "../bootstrap/less/variables.less";
 @import "variables-rtl.less";
-@import "mixins-rtl.less";
+@import "mixins-flipped.less";
 
 // ---- Single side border-radius ----
 
@@ -67,90 +67,4 @@
 // Utility classes
 @import "utilities-rtl.less";
 //@import "responsive-utilities.less";
-
-
-// ---------------------------------------------
-// Flipped classes
-// ---------------------------------------------
-
-// ---- Utilities ----
-.pull-right {
-  float: left !important;
-}
-.pull-left {
-  float: right !important;
-}
-
-//TODO carousel
-//TODO Glyphicons
-
-// ---- Dropdown ----
-.dropdown-menu-left {
-  left: auto;
-  right: 0;
-}
-
-// ---- Media ----
-.media-right,
-.media > .pull-right {
-  padding-right: 10px;
-  padding-left: initial;
-}
-
-.media-left,
-.media > .pull-left {
-  padding-left: 10px;
-  padding-right: initial;
-}
-
-// ---- Navbar ----
-@media (min-width: @grid-float-breakpoint) {
-  .navbar-left  { .pull-right(); }
-  .navbar-right {
-    .pull-left();
-    margin-left: -@navbar-padding-horizontal;
-    margin-right: initial;
-
-    ~ .navbar-right {
-      margin-left: 0;
-      margin-right: initial;
-    }
-  }
-}
-
-// ---- Tooltip ----
-.tooltip {
-  &.top-left .tooltip-arrow {
-    left: @tooltip-arrow-width;
-  }
-  &.top-right .tooltip-arrow {
-    right: @tooltip-arrow-width;
-  }
-  &.right .tooltip-arrow {
-    right: 0;
-    border-left-color: @tooltip-arrow-color;
-  }
-  &.left .tooltip-arrow {
-    left: 0;
-    border-right-color: @tooltip-arrow-color;
-  }
-  &.bottom-left .tooltip-arrow {
-    left: @tooltip-arrow-width;
-  }
-  &.bottom-right .tooltip-arrow {
-    right: @tooltip-arrow-width;
-  }
-}
-
-// ---- Type ----
-.text-left           { text-align: right; }
-.text-right          { text-align: left; }
-
-//DEPRECATED
-blockquote.pull-right {
-  padding-left: 15px;
-  padding-right: 0;
-  border-left: 5px solid @blockquote-border-color;
-  border-right: 0;
-  text-align: left;
-}
+@import "flipped.less";
