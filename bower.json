@@ -7,7 +7,8 @@
     "Morteza Ansarinia (http://github.com/morteza)"
   ],
   "main": [
-    "dist/css/bootstrap-rtl.css"
+    "dist/css/bootstrap-rtl.css",
+    "dist/js/bootstrap-rtl.min.js"
   ],
   "ignore": [
     "**/.*",

@@ -62,7 +62,18 @@ module.exports = function(grunt) {
                 'dist/css/bootstrap-flipped.css', 
                 'dist/css/<%= pkg.name %>.min.css',
                 'dist/css/bootstrap-flipped.min.css']
-        }        
+        }
+    },
+
+    uglify: {
+      options: {
+        mangle: false
+      },
+      my_target: {
+        files: {
+          'dist/js/bootstrap-rtl.min.js': ['examples/originals/dist/js/bootstrap.js', 'js/bootstrap-rtl-addons.js']
+        }
+      }
     }
   });
 
@@ -70,7 +81,8 @@ module.exports = function(grunt) {
 // Load uglify plugin
 grunt.loadNpmTasks('grunt-contrib-less');
 grunt.loadNpmTasks('grunt-banner');
+grunt.loadNpmTasks('grunt-contrib-uglify');
 
 // Default Task
-grunt.registerTask('default', ['less', 'usebanner']);
+grunt.registerTask('default', ['less', 'usebanner', 'uglify']);
 };

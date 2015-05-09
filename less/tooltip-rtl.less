@@ -1,0 +1,45 @@
+//
+// Tooltips
+// --------------------------------------------------
+
+
+// Base class
+.tooltip {
+  &.right  { margin-left: -3px; padding: 0 @tooltip-arrow-width; }
+  &.left   { margin-left: 3px; padding: 0 @tooltip-arrow-width; }
+}
+
+// Note: Deprecated .top-left, .top-right, .bottom-left, and .bottom-right as of v3.3.1
+.tooltip {
+  &.top-left .tooltip-arrow {
+    left: @tooltip-arrow-width;
+    right: auto;
+  }
+  &.top-right .tooltip-arrow {
+    right: @tooltip-arrow-width;
+    left: auto;
+  }
+  &.right .tooltip-arrow {
+    right: 0;
+    left: auto;
+    border-width: @tooltip-arrow-width 0 @tooltip-arrow-width @tooltip-arrow-width;
+    border-left-color: @tooltip-arrow-color;
+    border-right-color: transparent;
+  }
+  &.left .tooltip-arrow {
+    left: 0;
+    right: auto;
+    border-width: @tooltip-arrow-width 0 @tooltip-arrow-width @tooltip-arrow-width;
+    border-width: @tooltip-arrow-width @tooltip-arrow-width @tooltip-arrow-width 0;
+    border-right-color: @tooltip-arrow-color;
+    border-left-color: transparent;
+  }
+  &.bottom-left .tooltip-arrow {
+    left: @tooltip-arrow-width;
+    right: auto;
+  }
+  &.bottom-right .tooltip-arrow {
+    right: @tooltip-arrow-width;
+    left: auto;
+  }
+}

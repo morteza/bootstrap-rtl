@@ -1,7 +1,7 @@
 /*******************************************************************************
  *              bootstrap-rtl (version 3.3.2-rc1)
  *      Author: Morteza Ansarinia (http://github.com/morteza)
- *  Created on: March 05,2015
+ *  Created on: May 09,2015
  *     Project: bootstrap-rtl
  *   Copyright: Unlicensed Public Domain
  *******************************************************************************/
@@ -1382,6 +1382,45 @@ th {
   margin-right: 0;
   margin-left: auto;
 }
+.tooltip.right {
+  margin-left: -3px;
+  padding: 0 5px;
+}
+.tooltip.left {
+  margin-left: 3px;
+  padding: 0 5px;
+}
+.tooltip.top-left .tooltip-arrow {
+  left: 5px;
+  right: auto;
+}
+.tooltip.top-right .tooltip-arrow {
+  right: 5px;
+  left: auto;
+}
+.tooltip.right .tooltip-arrow {
+  right: 0;
+  left: auto;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #000000;
+  border-right-color: transparent;
+}
+.tooltip.left .tooltip-arrow {
+  left: 0;
+  right: auto;
+  border-width: 5px 0 5px 5px;
+  border-width: 5px 5px 5px 0;
+  border-right-color: #000000;
+  border-left-color: transparent;
+}
+.tooltip.bottom-left .tooltip-arrow {
+  left: 5px;
+  right: auto;
+}
+.tooltip.bottom-right .tooltip-arrow {
+  right: 5px;
+  left: auto;
+}
 .popover {
   left: auto;
   text-align: right;
@@ -1405,6 +1444,48 @@ th {
 .popover.bottom > .arrow:after {
   margin-right: -10px;
   margin-left: auto;
+}
+.popover.right {
+  margin-left: -10px;
+}
+.popover.left {
+  margin-left: 10px;
+}
+.popover.right > .arrow {
+  right: -11px;
+  left: auto;
+  border-right-width: 0;
+  border-left-width: 10px;
+  border-left-color: #999999;
+  border-left-color: rgba(0, 0, 0, 0.25);
+  border-right-color: transparent;
+}
+.popover.right > .arrow:after {
+  content: " ";
+  left: auto;
+  right: 1px;
+  border-right-width: 0;
+  border-left-width: 10px;
+  border-left-color: #ffffff;
+  border-right-color: transparent;
+}
+.popover.left > .arrow {
+  left: -11px;
+  right: auto;
+  border-left-width: 0;
+  border-right-width: 10px;
+  border-right-color: #999999;
+  border-right-color: rgba(0, 0, 0, 0.25);
+  border-left-color: transparent;
+}
+.popover.left > .arrow:after {
+  content: " ";
+  left: 1px;
+  right: auto;
+  border-left-width: 0;
+  border-right-width: 10px;
+  border-right-color: #ffffff;
+  border-left-color: transparent;
 }
 .carousel-control {
   right: 0;
