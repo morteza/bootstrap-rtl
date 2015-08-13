@@ -1,7 +1,7 @@
 /*******************************************************************************
- *              bootstrap-rtl (version 3.3.2-rc1)
+ *              bootstrap-rtl (version 3.3.4)
  *      Author: Morteza Ansarinia (http://github.com/morteza)
- *  Created on: March 05,2015
+ *  Created on: August 13,2015
  *     Project: bootstrap-rtl
  *   Copyright: Unlicensed Public Domain
  *******************************************************************************/
@@ -1369,6 +1369,9 @@ th {
 }
 .modal-footer {
   text-align: left;
+}
+.modal-footer.flip {
+  text-align: right;
 }
 .modal-footer .btn + .btn {
   margin-left: auto;
