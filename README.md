@@ -20,8 +20,8 @@ Bootstrap RTL provides simple yet robust right-to-left capability for Bootstrap 
 Or load it from CDN:
 
 ```html
-<!-- Load Bootstrap RTL theme from CDNJS -->
-<link rel="stylesheet" href="//cdn.rawgit.com/morteza/bootstrap-rtl/master/dist/css/bootstrap-rtl.min.css">
+<!-- Load Bootstrap RTL theme from RawGit -->
+<link rel="stylesheet" href="//cdn.rawgit.com/morteza/bootstrap-rtl/v3.3.4/dist/css/bootstrap-rtl.min.css">
 ```
 
 ## Quick start
