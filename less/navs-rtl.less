@@ -67,7 +67,12 @@
 // -------------------------
 
 .nav-justified {
-
+  
+  //To fix the overridden style by line 21
+  > li{
+    float: none;
+  }
+  
   > .dropdown .dropdown-menu {
     right: auto;
   }
