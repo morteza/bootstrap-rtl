@@ -50,25 +50,25 @@
 }
 .calc-rtl-grid-column(@index, @class, @type) when (@type = push) and (@index > 0) {
   .col-@{class}-push-@{index} {
-    right: percentage((@index / @grid-columns));
+    right: -1 * percentage((@index / @grid-columns));
     left: 0;
   }
 }
-.calc-rtl-grid-column(@index, @class, @type) when (@type = push) and (@index = 0) {
+.calc-rtl-grid-column(@index, @class, @type) when (@type = push) and (@index = @grid-columns) {
   .col-@{class}-push-0 {
-    right: auto;
+    right: 0;
     left: 0;
   }
 }
 .calc-rtl-grid-column(@index, @class, @type) when (@type = pull) and (@index > 0) {
   .col-@{class}-pull-@{index} {
-    left: percentage((@index / @grid-columns));
+    left: -1 * percentage((@index / @grid-columns));
     right: auto;
   }
 }
-.calc-rtl-grid-column(@index, @class, @type) when (@type = pull) and (@index = 0) {
+.calc-rtl-grid-column(@index, @class, @type) when (@type = pull) and (@index = @grid-columns) {
   .col-@{class}-pull-0 {
-    left: auto;
+    left: 0;
     right: auto;
   }
 }
