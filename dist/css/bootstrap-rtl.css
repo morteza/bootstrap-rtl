@@ -12,10 +12,10 @@ html {
 body {
   direction: rtl;
 }
-.flip.text-left {
+.text-left.flip {
   text-align: right;
 }
-.flip.text-right {
+.text-right.flip {
   text-align: left;
 }
 .list-unstyled {
