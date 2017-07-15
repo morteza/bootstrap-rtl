@@ -1,5 +1,7 @@
 # Bootstrap 3 RTL Theme
 
+[![CDNJS version](https://img.shields.io/cdnjs/v/bootstrap-rtl.svg)](https://cdnjs.com/libraries/bootstrap-rtl)
+
 ---
 
 ***Note: Hopefully, they will add rtl support to the next major release of bootstrap, so this project will be absolete. However, it's going to be updated for the next 3.x releases.***
