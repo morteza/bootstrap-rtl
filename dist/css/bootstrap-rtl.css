@@ -12,6 +12,10 @@ html {
 body {
   direction: rtl;
 }
+input, textarea {
+  direction:rtl;
+  unicode-bidi: bidi-override;
+}
 .flip.text-left {
   text-align: right;
 }
