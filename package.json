@@ -5,6 +5,7 @@
   "style": "dist/css/bootstrap-rtl.css",
   "homepage": "http://github.com/morteza/bootstrap-rtl",
   "author": "Morteza Ansarinia (http://github.com/morteza)",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "keywords": [
     "twitter",
     "bootstrap",
