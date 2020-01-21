@@ -1172,16 +1172,16 @@ th {
   .navbar-left.flip {
     float: right !important;
   }
-  .navbar-right:last-child {
+  .navbar-left:last-child {
     margin-left: -15px;
     margin-right: auto;
   }
-  .navbar-right.flip {
+  .navbar-left.flip {
     float: left !important;
     margin-left: -15px;
     margin-right: auto;
   }
-  .navbar-right .dropdown-menu {
+  .navbar-left .dropdown-menu {
     left: 0;
     right: auto;
   }
